@@ -65,11 +65,11 @@ st.write(df.groupby("Model_Used").agg({'sex': 'count',  'user_age': 'mean', 'use
 # Group by "Model_Used" and calculate the mean of "Conversion_Rate (%)"
 conversion_rate_summary = df.groupby("Model_Used")['Conversion_Rate (%)'].mean()
 
-   # Find the model with the maximum conversion rate
+# Find the model with the maximum conversion rate
 max_conversion_model = conversion_rate_summary.idxmax()
 max_conversion_value = conversion_rate_summary.max()
 
-   # Output the result using Streamlit's st.write
+# Output the result using Streamlit's st.write
 st.write(f"The model with the highest Conversion Rate is Model: {max_conversion_model}, with a Conversion Rate of: {max_conversion_value:.2f}%")
 
 clf, accuracy, report = train_model(df)
