@@ -63,8 +63,8 @@ st.write("### Preview of Data:")
 st.write(df.head())
 st.write("### Summary Statistics:")
 st.write(df.describe())
-st.write(df.groupby("Model_Used").agg({'sex': 'count',  'user_age': 'mean', 'user_cuisine': 'count', 'user_cuisine':'count', 'taste': 'count', 'Conversion_Rate (%)': 'mean', 'Likes': 'count' }))
 st.write("### Group by Model_Used and calculate the mean of Conversion_Rate(%)")
+st.write(df.groupby("Model_Used").agg({'sex': 'count',  'user_age': 'mean', 'user_cuisine': 'count', 'user_cuisine':'count', 'taste': 'count', 'Conversion_Rate (%)': 'mean', 'Likes': 'count' }))
 conversion_rate_summary = df.groupby("Model_Used")['Conversion_Rate (%)'].mean()
 
 # Find the model with the maximum conversion rate
