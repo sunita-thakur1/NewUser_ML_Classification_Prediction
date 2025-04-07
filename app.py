@@ -78,7 +78,7 @@ clf, accuracy, report = train_model(df)
 #st.markdown(f"### 🎯 Model Accuracy: `{accuracy:.2f}` on test set")
 
 # --- User Input Section ---
-st.header("🧑 Prediction for a New User")
+st.header("🧑 ML Model Prediction for a New User")
 
 with st.form("user_form"):
     user_age = st.slider("User Age", 1, 100, 25)
