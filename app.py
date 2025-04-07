@@ -16,12 +16,13 @@ import os
 st.set_page_config(page_title="Recommendation Model Predictor", layout="centered")
 st.title("🔮 Recommendation Model Predictor")
 st.markdown("Upload your dataset or use the default. Enter user info below to predict the best recommendation model.")
-st.write("### Preview of Data:")
-st.write(df.head())
-st.write(df.groupby("Model_Used").agg({'sex': 'count',  'user_age': 'mean', 'user_cuisine': 'count', 'user_cuisine':'count', 'taste': 'count', 'Conversion_Rate (%)': 'mean', 'Likes': 'count' }))
+
 # --- Load or train model ---
 @st.cache_data
 def load_data():
+    st.write("### Preview of Data:")
+st.write(df.head())
+st.write(df.groupby("Model_Used").agg({'sex': 'count',  'user_age': 'mean', 'user_cuisine': 'count', 'user_cuisine':'count', 'taste': 'count', 'Conversion_Rate (%)': 'mean', 'Likes': 'count' }))
     return pd.read_csv("recommendation_model_updated_v4.csv")  
     
 
