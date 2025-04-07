@@ -59,10 +59,10 @@ def train_model(df):
 
 # Load and train
 df = load_data()
-clf, accuracy, report = train_model(df)
 st.write("### Preview of Data:")
 st.write(df.head())
 st.write(df.groupby("Model_Used").agg({'sex': 'count',  'user_age': 'mean', 'user_cuisine': 'count', 'user_cuisine':'count', 'taste': 'count', 'Conversion_Rate (%)': 'mean', 'Likes': 'count' }))
+clf, accuracy, report = train_model(df)
 #st.markdown(f"### 🎯 Model Accuracy: `{accuracy:.2f}` on test set")
 
 # --- User Input Section ---
