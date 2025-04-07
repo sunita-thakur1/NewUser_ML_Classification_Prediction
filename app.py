@@ -60,7 +60,7 @@ def train_model(df):
 df = load_data()
 clf, accuracy, report = train_model(df)
 
-st.markdown(f"### 🎯 Model Accuracy: `{accuracy:.2f}` on test set")
+#st.markdown(f"### 🎯 Model Accuracy: `{accuracy:.2f}` on test set")
 
 # --- User Input Section ---
 st.header("🧑 Prediction for a New User")
