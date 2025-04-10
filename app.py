@@ -15,6 +15,16 @@ import os
 
 st.set_page_config(page_title="Recommendation Model Predictor", layout="centered")
 st.title("🔮 Recommendation Model Predictor")
+st.markdown("""
+Welcome to the **Recommendation Model Predictor**! This app helps predict the best recommendation model for users based on their preferences and behavior.
+### Key Features:
+- **Interactive User Input**: Users can input personal details (e.g., age, cuisine preference, taste) to get a model recommendation.
+- **Data Upload**: Option to upload a custom dataset or use the default dataset.
+- **Model Prediction**: A trained Random Forest Classifier predicts the best recommendation model based on the user's input.
+- **Feature Importance**: Visual display of the top 10 most important features influencing the model's recommendations.
+- **Simulated User Predictions**: Predictions for sample users are displayed to demonstrate the model's functionality.
+- **Download Results**: Users can download simulated predictions in CSV format for further analysis.
+""")
 st.markdown("Upload your dataset or use the default. Enter user info below to predict the best recommendation model.")
 
 # --- Load or train model ---
