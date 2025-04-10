@@ -25,7 +25,7 @@ Welcome to the **Recommendation Model Predictor**! This app helps predict the be
 - **Simulated User Predictions**: Predictions for sample users are displayed to demonstrate the model's functionality.
 - **Download Results**: Users can download simulated predictions in CSV format for further analysis.
 """)
-st.markdown("Upload your dataset or use the default. Enter user info below to predict the best recommendation model.")
+#st.markdown("Upload your dataset or use the default. Enter user info below to predict the best recommendation model.")
 
 # --- Load or train model ---
 @st.cache_data
