@@ -26,7 +26,11 @@ Welcome to the **Recommendation Model Predictor**! This app helps predict the be
 - **Download Results**: Users can download simulated predictions in CSV format for further analysis.
 """)
 #st.markdown("Upload your dataset or use the default. Enter user info below to predict the best recommendation model.")
-
+# Upload dataset
+uploaded_file = st.file_uploader("📥 Upload your CSV file", type=["csv"])
+if uploaded_file:
+    df = pd.read_csv(uploaded_file)
+    
 # --- Load or train model ---
 @st.cache_data
 def load_data():
