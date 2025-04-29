@@ -1,0 +1,1001 @@
+,User_ID,Model_Used,Donations ($),Time_Spent (min),Conversion_Rate (%),Recommendation_Accuracy (%),Engagement_(min/session),user_age,user_cuisine,gender,taste,likes,rating,place,occasion,dietary_preferences,budget
+0,1,2,0,68,0,89.78,5.23,95,Chinese,Male,Salty,1,2,Edmonton,anniversary,vegetarian,$40+
+1,2,0,0,72,0,84,8,27,Thai,Male,Spicy,3,3,Calgary,anniversary,vegetarian,$15 - $40
+2,3,1,11.09,163,8.45,77.27,14.82,60,French,Female,Salty,4,1,Quebec City,casual,vegetarian,no budget
+3,4,0,0,113,0,71.69,11.3,30,Greek,Male,Umami,3,2,Vancouver,tourist,vegetarian,no budget
+4,5,1,5.42,171,11.42,81.65,11.4,69,French,Male,Sweet,4,5,Ottawa,birthday,kosher,$15 - $40
+5,6,2,0,110,0,73.54,9.17,84,American,Female,Bitter,0,4,Calgary,casual,kosher,less than $15
+6,7,1,0,127,0,80.88,18.14,91,French,Male,Spicy,0,3,Quebec City,casual,gluten free,no budget
+7,8,2,0,113,0,63.21,7.53,93,American,Male,Sweet,4,3,Hamilton,lunch,kosher,$15 - $40
+8,9,0,0,84,0,79.07,5.6,67,Japanese,Male,Bitter,1,4,Winnipeg,anniversary,vegan,$40+
+9,10,2,0,123,0,77.07,10.25,53,Chinese,Male,Salty,0,5,Winnipeg,firstdate,gluten free,$40+
+10,11,1,0,158,0,89.46,19.75,59,Chinese,Male,Salty,0,1,Montreal,dinner,kosher,less than $15
+11,12,2,0,110,0,83.46,9.17,55,French,Female,Spicy,5,5,Montreal,casual,vegetarian,less than $15
+12,13,1,0,152,0,82.41,11.69,71,Greek,Female,Sour,2,3,Hamilton,birthday,halal,$40+
+13,14,0,3.48,100,8.87,65.43,14.29,69,Thai,Female,Sour,2,4,Quebec City,birthday,gluten free,no budget
+14,15,0,0,174,0,70.03,15.82,14,Greek,Female,Bitter,4,5,Winnipeg,lunch,gluten free,no budget
+15,16,1,0,156,0,66.03,31.2,31,Thai,Male,Sweet,4,5,Ottawa,casual,gluten free,$15 - $40
+16,17,2,0,162,0,64.45,11.57,29,Thai,Female,Bitter,0,3,Edmonton,casual,halal,$40+
+17,18,1,0,65,0,65.73,5.91,17,Spanish,Male,Spicy,1,1,Montreal,birthday,vegan,no budget
+18,19,0,0,60,0,78.45,5.45,41,American,Female,Sweet,4,3,Ottawa,firstdate,halal,$15 - $40
+19,20,2,0,157,0,79.26,10.47,26,Mexican,Female,Salty,4,2,Montreal,dinner,vegetarian,$40+
+20,21,0,0,155,0,89.63,10.33,1,Italian,Male,Sweet,0,4,Toronto,birthday,vegan,less than $15
+21,22,2,0,60,0,67.3,5,29,Italian,Female,Bitter,5,5,Winnipeg,birthday,gluten free,no budget
+22,23,2,0,60,0,86.71,7.5,97,Italian,Female,Umami,4,5,Quebec City,firstdate,vegan,$15 - $40
+23,24,0,0,158,0,78.58,14.36,5,American,Female,Sweet,5,4,Montreal,casual,gluten free,$15 - $40
+24,25,0,0,114,0,62.02,22.8,94,French,Male,Bitter,5,5,Calgary,birthday,halal,no budget
+25,26,1,0,65,0,68.47,9.29,46,Greek,Male,Sweet,0,2,Vancouver,dinner,halal,$15 - $40
+26,27,0,0,145,0,71.88,24.17,65,American,Female,Spicy,2,3,Quebec City,tourist,vegan,no budget
+27,28,2,0,142,0,74.41,23.67,46,American,Female,Umami,0,2,Kitchener,firstdate,halal,less than $15
+28,29,0,0,86,0,67.06,7.17,91,French,Female,Sour,4,2,Calgary,dinner,gluten free,$15 - $40
+29,30,2,0,121,0,81.71,10.08,45,American,Male,Salty,4,3,Kitchener,anniversary,gluten free,$40+
+30,31,1,14.71,102,10.4,86.82,17,85,American,Male,Sweet,1,2,Kitchener,tourist,vegan,less than $15
+31,32,1,2.97,133,8.9,74.49,22.17,52,Japanese,Female,Salty,3,4,Vancouver,firstdate,vegetarian,$40+
+32,33,1,0,99,0,62.98,11,99,Thai,Female,Umami,3,5,Toronto,tourist,gluten free,$15 - $40
+33,34,1,0,104,0,65.75,8.67,41,Japanese,Female,Sweet,5,2,Calgary,firstdate,halal,less than $15
+34,35,2,14.19,79,9.85,82.02,11.29,71,American,Female,Bitter,4,2,Ottawa,anniversary,vegan,no budget
+35,36,2,0,99,0,78.99,8.25,92,Greek,Female,Bitter,5,4,Vancouver,casual,halal,no budget
+36,37,1,0,107,0,77.91,8.92,26,Italian,Female,Salty,0,3,Hamilton,dinner,kosher,less than $15
+37,38,1,0,96,0,79.14,10.67,87,Italian,Female,Bitter,5,4,Vancouver,casual,vegan,$15 - $40
+38,39,2,14.83,96,5.92,87.23,6.4,56,Japanese,Female,Salty,3,2,Vancouver,casual,halal,$40+
+39,40,1,0,144,0,85.13,16,42,Thai,Male,Salty,4,5,Vancouver,anniversary,vegetarian,less than $15
+40,41,0,0,113,0,80.19,10.27,95,American,Male,Salty,4,1,Kitchener,firstdate,vegan,less than $15
+41,42,1,0,157,0,79.81,17.44,41,Chinese,Female,Bitter,3,4,Toronto,dinner,kosher,$15 - $40
+42,43,2,0,94,0,66.82,6.71,94,Chinese,Female,Sour,2,1,Montreal,casual,vegan,less than $15
+43,44,0,0,107,0,84.85,7.13,74,Spanish,Female,Sour,4,3,Vancouver,dinner,kosher,no budget
+44,45,0,0,155,0,71.1,11.92,16,Chinese,Male,Spicy,4,2,Toronto,anniversary,kosher,$15 - $40
+45,46,2,0,178,0,77.66,25.43,6,American,Male,Umami,0,1,Montreal,anniversary,halal,$15 - $40
+46,47,0,0,126,0,69.67,14,46,Mexican,Male,Umami,0,2,Toronto,lunch,halal,$15 - $40
+47,48,1,0,98,0,67.11,6.53,83,Chinese,Female,Bitter,4,1,Ottawa,casual,kosher,no budget
+48,49,0,5.7,174,8.6,89.78,17.4,33,French,Female,Salty,1,4,Hamilton,casual,vegan,$40+
+49,50,2,0,94,0,77.76,18.8,1,Japanese,Female,Salty,2,3,Calgary,anniversary,halal,less than $15
+50,51,1,0,172,0,67.16,28.67,34,Thai,Male,Umami,2,4,Vancouver,casual,halal,less than $15
+51,52,1,0,144,0,87.57,9.6,88,American,Female,Sweet,1,1,Toronto,firstdate,halal,$15 - $40
+52,53,0,0,160,0,78.71,12.31,40,Thai,Female,Sweet,4,2,Edmonton,casual,vegetarian,less than $15
+53,54,2,0,166,0,79.56,27.67,95,French,Female,Sour,2,4,Edmonton,dinner,vegan,$15 - $40
+54,55,2,0,131,0,68.73,13.1,45,American,Female,Salty,5,1,Toronto,anniversary,halal,no budget
+55,56,2,0,94,0,70.52,8.55,24,French,Male,Sour,2,4,Edmonton,anniversary,kosher,$40+
+56,57,0,0,65,0,81.78,13,11,Thai,Male,Salty,1,2,Hamilton,tourist,vegetarian,$15 - $40
+57,58,0,16.59,100,13.53,71.17,6.67,14,French,Female,Sweet,1,3,Ottawa,dinner,halal,less than $15
+58,59,1,0,133,0,62.47,9.5,59,Spanish,Male,Sour,2,4,Edmonton,tourist,halal,$40+
+59,60,0,0,127,0,83.53,8.47,49,French,Male,Sour,4,3,Ottawa,birthday,vegan,less than $15
+60,61,0,0,69,0,62.19,5.75,76,Italian,Male,Sweet,5,3,Calgary,birthday,vegan,$15 - $40
+61,62,2,0,157,0,60.28,17.44,6,Chinese,Male,Sour,5,1,Ottawa,firstdate,gluten free,no budget
+62,63,0,5.47,81,6.28,61.09,16.2,78,Thai,Female,Umami,4,4,Ottawa,birthday,halal,no budget
+63,64,0,0,132,0,64.02,13.2,39,Italian,Female,Salty,4,3,Calgary,birthday,vegan,$15 - $40
+64,65,1,0,140,0,76.18,10.77,84,Indian,Female,Bitter,3,3,Calgary,birthday,vegan,no budget
+65,66,0,0,134,0,80.46,16.75,46,Italian,Male,Bitter,5,3,Montreal,birthday,gluten free,$15 - $40
+66,67,1,0.58,77,11.17,65.93,8.56,50,Japanese,Male,Salty,5,4,Toronto,tourist,vegetarian,less than $15
+67,68,1,9.84,138,9.8,64.68,10.62,75,Indian,Male,Sweet,5,4,Montreal,lunch,halal,$40+
+68,69,0,0,87,0,60.72,8.7,42,American,Female,Spicy,4,4,Quebec City,birthday,kosher,$40+
+69,70,0,0,170,0,73.48,15.45,72,Spanish,Female,Sweet,1,5,Kitchener,birthday,gluten free,no budget
+70,71,2,0,102,0,71.06,12.75,70,Italian,Female,Bitter,5,1,Winnipeg,firstdate,gluten free,$15 - $40
+71,72,2,16,168,9.88,75.62,14,37,Greek,Male,Salty,2,4,Toronto,birthday,vegan,$40+
+72,73,1,0,88,0,64.8,5.87,1,Chinese,Female,Spicy,0,5,Toronto,birthday,kosher,$15 - $40
+73,74,2,0,104,0,85.39,8.67,34,Greek,Female,Sweet,5,5,Hamilton,firstdate,vegan,$15 - $40
+74,75,1,0,164,0,63.84,23.43,35,Chinese,Female,Umami,1,3,Calgary,birthday,halal,$40+
+75,76,1,0,114,0,65.36,8.77,72,Japanese,Female,Salty,2,3,Toronto,anniversary,gluten free,no budget
+76,77,0,0,108,0,61.97,9.82,91,Japanese,Male,Sweet,1,4,Edmonton,lunch,vegetarian,$15 - $40
+77,78,0,0,118,0,61.72,10.73,17,Thai,Female,Sour,1,4,Edmonton,dinner,gluten free,less than $15
+78,79,0,0,176,0,85.72,13.54,37,Italian,Male,Umami,0,3,Montreal,dinner,kosher,less than $15
+79,80,2,0,84,0,60.76,6,70,Italian,Male,Sour,3,1,Vancouver,dinner,vegetarian,no budget
+80,81,1,0,144,0,74.2,20.57,48,Chinese,Female,Umami,5,2,Winnipeg,anniversary,halal,$15 - $40
+81,82,1,0,122,0,72.11,13.56,99,Mexican,Female,Sweet,0,3,Calgary,lunch,vegan,$40+
+82,83,1,0,173,0,85.46,34.6,69,American,Female,Spicy,3,5,Kitchener,dinner,gluten free,$15 - $40
+83,84,1,0,120,0,67.89,20,49,Spanish,Male,Bitter,2,4,Edmonton,lunch,halal,no budget
+84,85,0,0,144,0,60.76,16,76,Greek,Female,Sour,1,3,Kitchener,firstdate,gluten free,no budget
+85,86,1,5.06,142,7.79,76.53,20.29,39,French,Male,Sour,5,2,Edmonton,anniversary,gluten free,less than $15
+86,87,1,0,118,0,89.74,8.43,77,American,Male,Umami,3,4,Vancouver,firstdate,vegan,no budget
+87,88,2,0,110,0,69.07,13.75,27,Mexican,Male,Salty,5,2,Kitchener,firstdate,kosher,$40+
+88,89,1,0,133,0,84.22,26.6,43,Japanese,Male,Salty,4,3,Hamilton,birthday,kosher,$15 - $40
+89,90,0,0,148,0,88.66,21.14,12,Greek,Male,Spicy,2,3,Hamilton,dinner,kosher,no budget
+90,91,2,0,165,0,61.03,12.69,35,French,Female,Bitter,1,4,Montreal,firstdate,vegetarian,$15 - $40
+91,92,0,0,104,0,87.61,9.45,18,Mexican,Male,Sweet,3,4,Winnipeg,birthday,halal,$15 - $40
+92,93,2,0,60,0,61.23,6.67,78,Italian,Male,Spicy,5,5,Montreal,tourist,vegan,less than $15
+93,94,0,0,131,0,78.34,13.1,30,Greek,Female,Spicy,0,4,Ottawa,firstdate,vegan,$15 - $40
+94,95,0,7.45,147,5.85,76.4,11.31,67,Chinese,Male,Umami,5,4,Winnipeg,firstdate,vegan,no budget
+95,96,2,0,173,0,75.21,21.62,50,French,Male,Umami,1,2,Calgary,dinner,gluten free,$15 - $40
+96,97,1,0,134,0,88.61,14.89,37,Thai,Male,Sour,3,5,Montreal,anniversary,halal,no budget
+97,98,2,4.87,71,11.42,71.44,7.89,9,Greek,Male,Sour,5,5,Toronto,dinner,kosher,less than $15
+98,99,2,0,139,0,82.23,11.58,84,Greek,Male,Salty,2,1,Ottawa,casual,kosher,$15 - $40
+99,100,2,3.81,148,11.31,64.7,12.33,46,Greek,Female,Spicy,5,3,Winnipeg,lunch,gluten free,no budget
+100,101,0,0,101,0,82.13,7.77,26,Italian,Female,Bitter,3,4,Kitchener,firstdate,kosher,$15 - $40
+101,102,2,0,104,0,85.41,10.4,40,Mexican,Male,Sweet,0,3,Toronto,birthday,vegan,less than $15
+102,103,2,16.37,74,9.53,72.61,12.33,8,Japanese,Male,Bitter,1,5,Quebec City,dinner,vegan,less than $15
+103,104,2,0,92,0,88.77,8.36,25,French,Female,Bitter,4,1,Calgary,dinner,vegetarian,less than $15
+104,105,1,0,158,0,76.36,26.33,37,Mexican,Female,Bitter,5,4,Quebec City,anniversary,gluten free,$15 - $40
+105,106,0,0,155,0,85.31,12.92,47,Greek,Female,Umami,2,4,Edmonton,casual,vegetarian,$40+
+106,107,1,0,167,0,67.48,18.56,7,Italian,Female,Salty,5,1,Montreal,anniversary,vegetarian,$40+
+107,108,2,0,103,0,80.94,8.58,84,Spanish,Female,Spicy,0,5,Vancouver,tourist,kosher,$15 - $40
+108,109,2,0,117,0,62.01,8.36,45,Greek,Male,Bitter,2,5,Quebec City,anniversary,halal,$40+
+109,110,2,9.47,175,12.16,64.79,17.5,89,Spanish,Male,Sour,1,4,Kitchener,tourist,vegan,$15 - $40
+110,111,1,0,138,0,89.84,17.25,79,French,Female,Bitter,2,2,Edmonton,dinner,kosher,less than $15
+111,112,1,0.16,60,12.82,85.53,10,88,French,Female,Spicy,0,5,Edmonton,dinner,gluten free,no budget
+112,113,2,14.28,109,9.41,69.69,21.8,44,Italian,Female,Sweet,1,5,Edmonton,firstdate,vegan,no budget
+113,114,2,0,176,0,84.77,14.67,92,Japanese,Male,Sour,0,1,Vancouver,anniversary,gluten free,$15 - $40
+114,115,0,4.39,167,12.68,82.84,12.85,69,Chinese,Male,Sweet,2,5,Edmonton,birthday,vegan,no budget
+115,116,2,0,130,0,76.7,9.29,1,Indian,Male,Umami,0,2,Kitchener,tourist,halal,$40+
+116,117,0,0,142,0,89.93,11.83,88,Mexican,Female,Salty,4,3,Hamilton,casual,vegetarian,$40+
+117,118,2,9.19,167,6.45,89.73,20.88,42,Spanish,Male,Spicy,5,5,Kitchener,anniversary,vegan,less than $15
+118,119,2,0,92,0,88.01,15.33,41,Mexican,Male,Bitter,4,3,Kitchener,lunch,gluten free,less than $15
+119,120,1,0,82,0,78.94,9.11,36,Spanish,Female,Bitter,4,4,Edmonton,tourist,halal,less than $15
+120,121,2,0,80,0,64.26,7.27,50,Thai,Male,Salty,2,3,Montreal,casual,kosher,$40+
+121,122,1,8.35,65,14.83,80.32,4.33,53,French,Male,Salty,4,5,Edmonton,tourist,vegan,$15 - $40
+122,123,2,0,87,0,62.59,5.8,1,Spanish,Male,Spicy,1,1,Kitchener,tourist,kosher,less than $15
+123,124,1,0,102,0,66.66,11.33,100,Thai,Male,Salty,4,3,Ottawa,anniversary,vegan,$15 - $40
+124,125,0,0,62,0,88.82,4.77,17,Spanish,Male,Spicy,4,4,Ottawa,casual,vegetarian,$40+
+125,126,2,0,152,0,65.07,16.89,62,Italian,Male,Bitter,0,4,Calgary,firstdate,vegan,$15 - $40
+126,127,1,0,111,0,65.1,7.93,76,Greek,Male,Sweet,5,1,Toronto,lunch,kosher,less than $15
+127,128,2,0,136,0,88.36,17,78,American,Male,Umami,3,5,Hamilton,dinner,halal,less than $15
+128,129,2,0,163,0,65.68,13.58,40,American,Male,Umami,5,2,Calgary,firstdate,kosher,less than $15
+129,130,1,0,176,0,68.86,19.56,43,Greek,Female,Umami,0,4,Quebec City,birthday,gluten free,less than $15
+130,131,0,0,130,0,85.93,11.82,33,Japanese,Female,Spicy,3,1,Calgary,casual,gluten free,less than $15
+131,132,2,0,120,0,86.99,24,67,Japanese,Female,Spicy,3,2,Vancouver,dinner,halal,$15 - $40
+132,133,1,0,102,0,72.05,6.8,41,Thai,Male,Sweet,3,1,Vancouver,birthday,vegetarian,$15 - $40
+133,134,0,0,104,0,78.65,7.43,80,Mexican,Female,Umami,3,3,Toronto,lunch,kosher,no budget
+134,135,2,0,73,0,62.05,6.64,8,Mexican,Female,Spicy,2,1,Ottawa,lunch,gluten free,$40+
+135,136,1,13.96,153,10.3,62.02,25.5,37,Chinese,Male,Spicy,2,2,Hamilton,dinner,gluten free,$40+
+136,137,2,0,157,0,69.19,26.17,13,Chinese,Female,Salty,0,5,Winnipeg,dinner,vegetarian,less than $15
+137,138,1,0,167,0,78.39,13.92,18,French,Male,Umami,0,4,Quebec City,tourist,vegetarian,$40+
+138,139,2,6.71,87,5.37,74.32,17.4,7,American,Female,Salty,5,4,Hamilton,casual,gluten free,no budget
+139,140,1,0,143,0,81.65,11,56,Japanese,Female,Spicy,4,2,Toronto,lunch,vegan,less than $15
+140,141,2,2.39,122,8.37,85.72,17.43,23,Mexican,Female,Salty,1,5,Quebec City,lunch,vegetarian,no budget
+141,142,1,0,161,0,60.06,17.89,62,Thai,Male,Bitter,4,2,Ottawa,anniversary,vegan,$40+
+142,143,1,5.12,116,6.19,84.97,23.2,89,French,Male,Sour,0,2,Ottawa,dinner,kosher,less than $15
+143,144,2,0,162,0,72.84,13.5,31,Italian,Female,Bitter,3,1,Winnipeg,birthday,kosher,less than $15
+144,145,0,0,80,0,75.42,11.43,28,Italian,Male,Bitter,0,4,Vancouver,anniversary,halal,less than $15
+145,146,1,16.15,162,6.61,83.68,11.57,97,American,Male,Spicy,4,1,Hamilton,firstdate,vegan,less than $15
+146,147,2,0,109,0,66.14,8.38,15,Chinese,Male,Salty,4,3,Winnipeg,lunch,halal,less than $15
+147,148,0,0,90,0,73.25,9,5,Mexican,Male,Salty,2,2,Winnipeg,firstdate,vegan,no budget
+148,149,1,0,146,0,67.63,12.17,22,Indian,Female,Sweet,0,4,Calgary,lunch,vegetarian,no budget
+149,150,0,0,154,0,77.95,14,28,Italian,Male,Spicy,3,3,Edmonton,tourist,vegetarian,$15 - $40
+150,151,0,0,121,0,62.27,8.07,96,Indian,Male,Sour,5,3,Hamilton,birthday,vegan,$40+
+151,152,0,0,171,0,86.01,17.1,60,Mexican,Female,Spicy,5,3,Montreal,anniversary,vegetarian,$40+
+152,153,0,15.4,93,14.3,88.85,6.2,42,Greek,Female,Sour,5,4,Calgary,birthday,halal,no budget
+153,154,2,0,111,0,73.55,11.1,66,Spanish,Female,Umami,4,1,Vancouver,tourist,kosher,$15 - $40
+154,155,2,0,99,0,64.87,9.9,72,Spanish,Male,Spicy,5,2,Calgary,birthday,gluten free,no budget
+155,156,0,0,157,0,85.72,11.21,72,French,Male,Sweet,0,3,Vancouver,tourist,gluten free,no budget
+156,157,0,0,126,0,65.86,10.5,81,Thai,Male,Spicy,3,2,Winnipeg,firstdate,vegan,no budget
+157,158,1,4.84,142,7.09,65.31,12.91,59,Indian,Female,Sour,3,2,Quebec City,lunch,kosher,$40+
+158,159,1,13.36,161,13.23,70.6,16.1,24,Chinese,Male,Bitter,3,2,Edmonton,anniversary,halal,$40+
+159,160,0,6.27,109,8.42,70.68,12.11,34,Spanish,Female,Bitter,0,2,Ottawa,casual,kosher,$40+
+160,161,0,0,86,0,83.55,14.33,96,Japanese,Female,Salty,1,5,Edmonton,dinner,halal,$15 - $40
+161,162,0,0,125,0,78.91,12.5,55,Spanish,Male,Bitter,5,1,Calgary,tourist,vegan,$15 - $40
+162,163,2,17.5,178,13.81,76.01,11.87,35,Indian,Male,Spicy,4,2,Calgary,birthday,halal,no budget
+163,164,1,0,99,0,64.24,9,63,Greek,Female,Salty,2,2,Calgary,casual,gluten free,$15 - $40
+164,165,1,0,160,0,74.71,14.55,57,French,Female,Spicy,0,5,Kitchener,lunch,halal,$40+
+165,166,1,0,90,0,60.37,6.43,9,American,Male,Salty,1,3,Toronto,casual,halal,less than $15
+166,167,0,0,66,0,65.94,5.08,27,Chinese,Male,Bitter,4,4,Montreal,anniversary,vegetarian,no budget
+167,168,1,0,147,0,72.62,24.5,28,Mexican,Male,Salty,4,5,Toronto,dinner,kosher,$40+
+168,169,0,0,159,0,79.04,12.23,93,Chinese,Male,Umami,3,3,Vancouver,dinner,halal,no budget
+169,170,1,8.34,128,12.62,64.32,14.22,97,French,Female,Salty,1,2,Kitchener,dinner,gluten free,$40+
+170,171,2,0,129,0,88.59,12.9,53,Indian,Male,Umami,2,3,Edmonton,casual,kosher,no budget
+171,172,1,15.57,137,14.64,81.38,15.22,52,French,Female,Sweet,1,2,Vancouver,birthday,vegan,$15 - $40
+172,173,0,0,106,0,70.49,10.6,9,French,Female,Sweet,3,4,Hamilton,tourist,kosher,less than $15
+173,174,1,6.95,104,8.15,67.81,9.45,56,Spanish,Male,Salty,0,1,Hamilton,firstdate,vegetarian,no budget
+174,175,2,0,98,0,70.22,7,76,American,Female,Umami,1,4,Vancouver,dinner,gluten free,less than $15
+175,176,1,7.03,71,8.81,72.5,10.14,18,French,Female,Salty,5,4,Hamilton,casual,vegan,no budget
+176,177,0,0,106,0,60.7,10.6,2,Mexican,Female,Spicy,1,2,Kitchener,tourist,gluten free,no budget
+177,178,0,11.2,150,12.2,82,11.54,62,Chinese,Female,Sweet,3,5,Toronto,casual,vegan,$40+
+178,179,0,0,118,0,84.99,14.75,64,Thai,Female,Umami,4,3,Calgary,tourist,vegan,$15 - $40
+179,180,0,0,97,0,77.8,9.7,81,Chinese,Female,Sweet,3,5,Toronto,casual,vegetarian,less than $15
+180,181,1,0,63,0,85.71,4.5,69,Indian,Male,Salty,3,4,Hamilton,firstdate,gluten free,$40+
+181,182,1,0,147,0,62.01,10.5,89,American,Female,Umami,0,1,Kitchener,dinner,gluten free,less than $15
+182,183,2,14.16,143,6.54,65.11,11,80,Chinese,Male,Sour,0,2,Edmonton,casual,halal,$40+
+183,184,2,6.54,118,6.43,64.48,7.87,30,American,Male,Bitter,2,2,Calgary,lunch,halal,$15 - $40
+184,185,1,0,155,0,71.85,22.14,48,Greek,Female,Sweet,0,5,Calgary,casual,kosher,$40+
+185,186,1,0,170,0,65.64,28.33,79,Chinese,Female,Sour,4,3,Montreal,anniversary,vegetarian,$15 - $40
+186,187,0,0,65,0,72.61,5,48,Spanish,Male,Sweet,4,1,Kitchener,birthday,halal,$40+
+187,188,1,0,82,0,69.74,7.45,67,Greek,Male,Umami,2,3,Calgary,casual,gluten free,$40+
+188,189,1,0,76,0,78.75,12.67,84,Indian,Female,Spicy,4,3,Ottawa,birthday,halal,no budget
+189,190,0,9.79,163,7.65,89.57,12.54,52,Italian,Female,Sweet,3,5,Kitchener,tourist,vegan,$40+
+190,191,0,3.58,76,11.49,62.71,6.33,28,Indian,Female,Sweet,4,3,Edmonton,tourist,halal,$40+
+191,192,0,12.51,73,9.7,63.02,12.17,44,American,Female,Umami,3,4,Edmonton,birthday,gluten free,less than $15
+192,193,0,0,73,0,84.02,9.12,93,Italian,Female,Sour,5,2,Quebec City,anniversary,gluten free,less than $15
+193,194,0,0,158,0,85.6,19.75,83,Spanish,Male,Spicy,2,1,Toronto,casual,gluten free,no budget
+194,195,1,0,95,0,83.07,11.88,77,Greek,Male,Bitter,1,4,Edmonton,tourist,halal,$40+
+195,196,2,0,100,0,61.13,12.5,29,Mexican,Female,Sour,2,4,Kitchener,firstdate,vegan,less than $15
+196,197,0,6.52,112,10.97,82.49,8.62,92,Greek,Female,Umami,0,2,Vancouver,tourist,gluten free,less than $15
+197,198,0,0,162,0,76.12,14.73,97,French,Male,Salty,5,3,Ottawa,casual,vegetarian,no budget
+198,199,1,0,154,0,87.18,11.85,3,Chinese,Female,Sweet,4,2,Vancouver,tourist,vegan,no budget
+199,200,2,0,97,0,78.73,9.7,70,Thai,Female,Spicy,4,3,Kitchener,tourist,halal,no budget
+200,201,0,0,63,0,63.87,7,64,Chinese,Female,Bitter,0,3,Edmonton,anniversary,vegan,$15 - $40
+201,202,1,0,135,0,73.63,27,36,Japanese,Male,Bitter,0,2,Vancouver,dinner,vegetarian,no budget
+202,203,2,0,106,0,71.17,8.15,37,Indian,Male,Umami,4,5,Hamilton,casual,vegetarian,$40+
+203,204,1,0,168,0,71.1,11.2,4,Greek,Female,Spicy,0,3,Montreal,casual,kosher,less than $15
+204,205,0,0,60,0,67.37,12,11,Japanese,Male,Bitter,0,2,Edmonton,dinner,vegan,less than $15
+205,206,2,7.46,122,13.37,66.14,17.43,9,Italian,Female,Salty,1,2,Edmonton,birthday,gluten free,less than $15
+206,207,1,1.84,91,6.8,89.62,10.11,16,Spanish,Male,Bitter,4,5,Hamilton,anniversary,halal,$40+
+207,208,0,0,131,0,64.93,16.38,10,Chinese,Female,Umami,5,4,Calgary,anniversary,halal,$15 - $40
+208,209,2,0.31,136,8.91,81.49,12.36,30,Italian,Female,Sweet,3,3,Edmonton,casual,halal,$15 - $40
+209,210,2,0,122,0,61.39,15.25,17,Japanese,Female,Umami,5,3,Ottawa,anniversary,vegan,$15 - $40
+210,211,1,0,103,0,86.55,10.3,6,Italian,Male,Spicy,0,3,Calgary,birthday,gluten free,$15 - $40
+211,212,1,18.61,155,9,69.21,17.22,17,Chinese,Male,Salty,5,3,Winnipeg,firstdate,halal,$40+
+212,213,2,8.84,168,10.06,70.31,14,69,Japanese,Female,Bitter,2,3,Edmonton,firstdate,halal,no budget
+213,214,2,0,132,0,65.79,8.8,29,Greek,Female,Umami,3,2,Quebec City,dinner,gluten free,less than $15
+214,215,2,0,77,0,71.31,15.4,9,Chinese,Male,Sweet,4,4,Winnipeg,dinner,gluten free,$40+
+215,216,1,0,173,0,66.23,12.36,89,Chinese,Female,Salty,1,1,Hamilton,dinner,vegan,$15 - $40
+216,217,2,0,150,0,72.66,30,5,Spanish,Male,Bitter,0,2,Montreal,casual,halal,$40+
+217,218,0,0,142,0,83.48,14.2,64,Indian,Male,Sweet,2,3,Quebec City,firstdate,kosher,$15 - $40
+218,219,1,0,136,0,67.83,9.07,51,French,Male,Umami,0,1,Quebec City,birthday,halal,$15 - $40
+219,220,1,0,152,0,71.32,12.67,1,Japanese,Male,Bitter,3,3,Kitchener,birthday,vegetarian,$40+
+220,221,2,0,91,0,85.47,9.1,53,Mexican,Female,Sweet,2,4,Hamilton,casual,vegetarian,$40+
+221,222,1,12.6,99,9.38,88.68,12.38,56,Greek,Female,Sweet,1,5,Ottawa,lunch,gluten free,no budget
+222,223,2,0,70,0,73.81,6.36,37,Greek,Male,Bitter,0,2,Toronto,casual,kosher,less than $15
+223,224,2,0,124,0,84.69,9.54,50,Japanese,Female,Sweet,5,4,Toronto,casual,kosher,$40+
+224,225,1,7.18,155,11.51,72.93,14.09,78,Greek,Male,Bitter,4,4,Hamilton,firstdate,vegetarian,less than $15
+225,226,1,0,163,0,81.57,13.58,13,Indian,Male,Spicy,1,2,Vancouver,dinner,gluten free,no budget
+226,227,2,0,124,0,68.07,8.27,15,Greek,Male,Bitter,3,5,Montreal,tourist,gluten free,no budget
+227,228,0,0,158,0,67.43,12.15,58,Greek,Female,Sweet,1,1,Montreal,casual,vegetarian,$40+
+228,229,1,0,169,0,89.75,16.9,45,American,Female,Bitter,3,1,Calgary,casual,vegan,less than $15
+229,230,1,0,156,0,74.07,22.29,22,Italian,Female,Sweet,2,5,Hamilton,casual,vegetarian,less than $15
+230,231,1,3.79,81,12.23,64.61,7.36,64,Italian,Female,Spicy,2,1,Kitchener,dinner,gluten free,no budget
+231,232,2,0,140,0,84.23,20,31,Greek,Male,Spicy,4,2,Toronto,lunch,gluten free,no budget
+232,233,1,14.31,93,12.05,75.6,6.2,49,French,Female,Umami,4,5,Kitchener,anniversary,halal,no budget
+233,234,2,0,155,0,88.18,15.5,97,Indian,Male,Sweet,2,1,Ottawa,tourist,gluten free,$40+
+234,235,1,0,99,0,73.69,11,60,Spanish,Male,Sweet,4,1,Winnipeg,casual,vegetarian,less than $15
+235,236,1,0,93,0,60.91,7.75,33,Spanish,Male,Salty,5,1,Vancouver,dinner,vegan,$40+
+236,237,1,9.13,75,6.55,77.51,6.25,85,Indian,Female,Umami,5,3,Vancouver,dinner,vegetarian,$40+
+237,238,0,0,125,0,71.66,10.42,7,French,Female,Sweet,3,3,Hamilton,dinner,halal,less than $15
+238,239,1,0,164,0,85.84,20.5,67,French,Female,Sour,1,1,Ottawa,birthday,gluten free,$15 - $40
+239,240,1,9,163,11.4,81.45,12.54,58,Japanese,Female,Bitter,4,5,Edmonton,casual,vegetarian,less than $15
+240,241,0,0,68,0,66.47,13.6,58,Indian,Female,Sweet,4,3,Kitchener,birthday,vegan,no budget
+241,242,2,15.99,110,9.29,78.77,10,17,Italian,Female,Sweet,2,1,Edmonton,anniversary,gluten free,less than $15
+242,243,2,0,66,0,62.18,5.08,94,Mexican,Female,Umami,1,1,Montreal,dinner,gluten free,$15 - $40
+243,244,2,0,173,0,64.32,17.3,50,Greek,Female,Sweet,4,4,Edmonton,firstdate,vegan,$15 - $40
+244,245,2,0,171,0,88.82,28.5,73,Chinese,Female,Salty,2,3,Kitchener,tourist,vegetarian,$40+
+245,246,0,0,118,0,85.13,13.11,49,Thai,Male,Sweet,5,2,Quebec City,anniversary,vegan,less than $15
+246,247,2,10.94,91,13.03,80.08,7.58,79,Japanese,Female,Bitter,5,4,Ottawa,dinner,kosher,$40+
+247,248,0,0,171,0,82.64,13.15,87,Chinese,Female,Sweet,3,5,Toronto,tourist,halal,$15 - $40
+248,249,1,0,165,0,85.86,23.57,33,Japanese,Male,Sweet,1,4,Calgary,casual,vegan,less than $15
+249,250,2,0,128,0,89.02,25.6,3,Mexican,Female,Spicy,4,5,Montreal,dinner,kosher,no budget
+250,251,1,6.17,138,6.99,64.32,17.25,1,Thai,Female,Bitter,3,1,Calgary,firstdate,vegetarian,no budget
+251,252,1,0,150,0,74.68,30,5,Thai,Female,Spicy,5,3,Hamilton,dinner,halal,$15 - $40
+252,253,0,0,165,0,69.6,27.5,89,Italian,Female,Sweet,4,4,Toronto,lunch,gluten free,no budget
+253,254,0,0,124,0,63.24,8.86,72,Spanish,Female,Sweet,4,4,Quebec City,anniversary,halal,$15 - $40
+254,255,0,0,109,0,65.87,9.08,88,French,Male,Umami,1,2,Calgary,lunch,gluten free,$40+
+255,256,1,0,72,0,61.66,10.29,32,Greek,Male,Spicy,5,4,Quebec City,tourist,gluten free,$40+
+256,257,2,0,153,0,83.03,19.12,86,Mexican,Female,Sweet,0,4,Edmonton,birthday,gluten free,no budget
+257,258,2,9.88,132,5.92,69.69,14.67,75,Spanish,Female,Bitter,4,5,Ottawa,dinner,gluten free,no budget
+258,259,0,0,149,0,61.9,16.56,79,Greek,Female,Sweet,5,1,Edmonton,firstdate,gluten free,$40+
+259,260,1,0,164,0,76.35,27.33,14,Greek,Female,Spicy,4,3,Winnipeg,birthday,gluten free,$40+
+260,261,1,0,84,0,87.24,7.64,84,Mexican,Female,Umami,3,3,Vancouver,firstdate,gluten free,$40+
+261,262,2,0,101,0,87.07,10.1,16,American,Female,Bitter,5,5,Winnipeg,tourist,gluten free,$40+
+262,263,2,0,80,0,72.9,6.15,96,Italian,Female,Spicy,5,2,Calgary,dinner,halal,less than $15
+263,264,0,16.93,70,14.83,86.72,11.67,60,Indian,Male,Sweet,0,3,Vancouver,anniversary,kosher,$40+
+264,265,0,0,82,0,77.54,5.47,32,Indian,Male,Salty,1,2,Ottawa,birthday,halal,no budget
+265,266,1,10.83,175,12.08,67.55,14.58,31,Japanese,Male,Bitter,5,4,Quebec City,anniversary,vegetarian,less than $15
+266,267,0,0,130,0,78.47,21.67,41,Thai,Female,Bitter,1,5,Montreal,casual,gluten free,$40+
+267,268,2,16.51,65,11.49,88.46,5.91,25,Chinese,Female,Umami,0,1,Hamilton,lunch,halal,$15 - $40
+268,269,2,0,77,0,89.42,5.92,13,Spanish,Female,Salty,1,5,Montreal,lunch,gluten free,$15 - $40
+269,270,2,13.02,76,5.34,85.44,15.2,54,Thai,Male,Salty,3,4,Hamilton,dinner,vegetarian,no budget
+270,271,2,0,137,0,62.71,11.42,88,Chinese,Female,Sour,4,2,Kitchener,lunch,vegan,less than $15
+271,272,2,0,112,0,72.6,11.2,93,Japanese,Female,Bitter,4,5,Hamilton,lunch,vegetarian,$15 - $40
+272,273,0,0,101,0,79.63,11.22,66,Indian,Male,Sweet,4,3,Quebec City,lunch,gluten free,less than $15
+273,274,0,0,159,0,69.58,11.36,60,Mexican,Female,Sweet,3,2,Montreal,tourist,kosher,no budget
+274,275,0,0,134,0,65.15,13.4,16,American,Female,Sour,0,4,Quebec City,birthday,kosher,less than $15
+275,276,2,0,98,0,79.32,16.33,42,American,Male,Salty,0,5,Hamilton,birthday,halal,$15 - $40
+276,277,1,0,104,0,73.02,10.4,41,American,Male,Bitter,0,4,Ottawa,firstdate,kosher,no budget
+277,278,0,0,110,0,63.33,18.33,16,American,Female,Sour,4,2,Toronto,tourist,kosher,$40+
+278,279,2,13.89,72,8.08,88.33,5.14,33,Japanese,Male,Sour,3,1,Kitchener,lunch,gluten free,$40+
+279,280,2,11.79,99,8.95,61.92,7.62,60,Chinese,Male,Umami,5,1,Vancouver,anniversary,vegan,$15 - $40
+280,281,0,0,134,0,83.61,16.75,3,Italian,Male,Sour,3,2,Montreal,birthday,vegan,$40+
+281,282,1,0,112,0,83.88,9.33,77,Indian,Female,Spicy,1,4,Toronto,lunch,vegetarian,less than $15
+282,283,2,0,167,0,60.96,20.88,85,Mexican,Male,Sour,5,5,Vancouver,anniversary,vegetarian,$40+
+283,284,0,16.09,139,5.57,81.15,13.9,45,Spanish,Male,Sour,2,5,Ottawa,dinner,kosher,$15 - $40
+284,285,1,0,98,0,61.84,10.89,26,American,Female,Umami,3,4,Hamilton,dinner,gluten free,$40+
+285,286,1,0,89,0,72.54,7.42,84,Thai,Female,Salty,0,5,Edmonton,anniversary,halal,$15 - $40
+286,287,2,0,73,0,84.98,6.64,99,Chinese,Male,Spicy,0,1,Winnipeg,casual,gluten free,$40+
+287,288,1,0,153,0,74.78,25.5,61,Thai,Male,Bitter,3,4,Toronto,casual,vegan,no budget
+288,289,0,0,133,0,89.07,8.87,9,Spanish,Male,Umami,2,1,Calgary,anniversary,kosher,$15 - $40
+289,290,0,6.71,157,5.15,68.35,31.4,49,Indian,Male,Spicy,1,1,Ottawa,birthday,vegan,less than $15
+290,291,0,0,89,0,63.61,14.83,90,Thai,Female,Salty,0,4,Hamilton,birthday,vegetarian,$40+
+291,292,2,3.99,143,5.7,78.78,15.89,67,Mexican,Female,Spicy,3,4,Kitchener,lunch,vegan,less than $15
+292,293,0,0,153,0,61.48,17,40,Japanese,Male,Sour,3,4,Vancouver,birthday,gluten free,less than $15
+293,294,0,0,114,0,81.44,8.77,60,French,Female,Bitter,5,4,Hamilton,birthday,gluten free,no budget
+294,295,2,14.83,168,9.75,76.48,12.92,29,Spanish,Male,Spicy,2,4,Vancouver,dinner,halal,no budget
+295,296,1,0,124,0,70.41,20.67,100,Indian,Female,Spicy,1,1,Ottawa,firstdate,vegan,less than $15
+296,297,0,5.48,107,13.16,82.33,13.38,9,French,Male,Bitter,4,1,Kitchener,tourist,vegetarian,no budget
+297,298,1,0,125,0,73.55,12.5,25,Chinese,Female,Spicy,2,5,Edmonton,firstdate,gluten free,no budget
+298,299,1,12.7,134,7.6,72.15,13.4,26,Chinese,Male,Spicy,2,5,Vancouver,birthday,gluten free,$15 - $40
+299,300,2,0,167,0,84.34,16.7,47,Thai,Female,Sour,3,3,Edmonton,lunch,kosher,no budget
+300,301,2,16.65,103,11.28,79.1,14.71,47,French,Female,Salty,3,1,Kitchener,anniversary,vegan,$15 - $40
+301,302,2,0,105,0,61.59,15,53,Spanish,Male,Spicy,2,1,Hamilton,casual,vegetarian,less than $15
+302,303,2,0,170,0,87.03,13.08,64,American,Female,Umami,4,3,Winnipeg,firstdate,vegetarian,less than $15
+303,304,1,19.94,61,10.07,72.42,5.08,36,Indian,Female,Salty,1,4,Ottawa,firstdate,halal,$40+
+304,305,0,4.9,150,14.96,68.32,10.71,63,Japanese,Female,Spicy,3,2,Hamilton,casual,kosher,no budget
+305,306,1,14.93,79,13.66,89.73,6.08,18,Thai,Male,Salty,0,3,Vancouver,casual,halal,no budget
+306,307,1,0,74,0,66.22,4.93,30,Chinese,Female,Bitter,5,5,Hamilton,lunch,gluten free,$40+
+307,308,1,0,82,0,82.52,16.4,51,Thai,Male,Salty,2,2,Kitchener,dinner,vegetarian,$15 - $40
+308,309,0,11.13,137,11.76,82.14,12.45,23,Thai,Female,Sour,4,5,Kitchener,birthday,vegan,no budget
+309,310,2,0,161,0,82.84,32.2,95,Indian,Male,Bitter,0,1,Kitchener,firstdate,vegan,$40+
+310,311,1,0,139,0,79.67,9.93,94,Indian,Male,Sour,2,1,Vancouver,casual,gluten free,$15 - $40
+311,312,2,6.23,175,6.8,77.63,12.5,1,French,Female,Spicy,2,3,Vancouver,dinner,kosher,$15 - $40
+312,313,2,0,93,0,89.78,7.15,1,Spanish,Female,Spicy,5,1,Ottawa,casual,gluten free,$40+
+313,314,0,0,178,0,62.29,25.43,60,Mexican,Male,Sweet,0,4,Calgary,lunch,vegetarian,$15 - $40
+314,315,1,16.63,157,10.41,83.79,31.4,87,Indian,Male,Sweet,0,5,Quebec City,dinner,halal,less than $15
+315,316,0,0,128,0,65.78,16,57,Mexican,Male,Spicy,1,4,Montreal,anniversary,vegetarian,no budget
+316,317,1,0,96,0,72.87,8,97,Indian,Male,Spicy,4,2,Montreal,dinner,kosher,$15 - $40
+317,318,1,4.03,88,6.51,88.29,5.87,96,French,Female,Sweet,2,4,Edmonton,birthday,gluten free,less than $15
+318,319,0,0,63,0,86.14,4.2,97,Greek,Male,Umami,1,4,Calgary,birthday,halal,no budget
+319,320,2,0,74,0,64.1,5.69,25,American,Female,Umami,1,3,Winnipeg,lunch,kosher,less than $15
+320,321,1,0,175,0,76.3,15.91,1,Chinese,Female,Sweet,3,1,Ottawa,tourist,vegetarian,less than $15
+321,322,1,0,151,0,78.84,13.73,57,Indian,Female,Bitter,2,3,Kitchener,anniversary,gluten free,no budget
+322,323,1,5.74,88,7.01,78.65,6.29,40,Chinese,Female,Umami,3,4,Kitchener,dinner,gluten free,$40+
+323,324,2,11.94,93,14.19,88.5,13.29,56,Italian,Male,Umami,3,1,Quebec City,anniversary,halal,$40+
+324,325,2,0,85,0,77.84,8.5,54,Italian,Male,Sweet,4,5,Ottawa,anniversary,gluten free,no budget
+325,326,0,0,108,0,81.1,9,8,Italian,Male,Sweet,4,1,Hamilton,lunch,vegan,no budget
+326,327,2,18.19,72,9.15,83.23,12,17,Greek,Female,Spicy,5,3,Calgary,lunch,kosher,$40+
+327,328,0,3.02,112,5.03,71.62,7.47,75,American,Male,Salty,0,5,Hamilton,anniversary,vegetarian,$15 - $40
+328,329,0,0,99,0,62.9,9,97,French,Female,Spicy,1,4,Hamilton,firstdate,vegan,$40+
+329,330,2,0,112,0,60.58,8,76,American,Male,Sweet,0,1,Calgary,firstdate,vegetarian,no budget
+330,331,1,0,97,0,70.93,13.86,92,Italian,Female,Spicy,0,1,Calgary,dinner,vegetarian,$15 - $40
+331,332,0,18.45,75,10.49,75.79,9.38,57,French,Male,Bitter,3,2,Montreal,lunch,vegan,no budget
+332,333,2,0,151,0,87.28,10.07,34,Greek,Female,Sweet,2,3,Hamilton,dinner,kosher,less than $15
+333,334,0,0,172,0,78.29,13.23,17,Chinese,Female,Umami,3,3,Quebec City,lunch,vegetarian,$40+
+334,335,0,0,63,0,65.08,4.5,70,French,Female,Bitter,4,5,Montreal,tourist,halal,$15 - $40
+335,336,1,0,144,0,87.67,10.29,9,American,Female,Spicy,3,5,Montreal,dinner,vegan,$40+
+336,337,0,0,173,0,84.76,11.53,32,Japanese,Male,Spicy,0,1,Vancouver,dinner,kosher,less than $15
+337,338,2,0,106,0,71.25,17.67,71,Chinese,Female,Umami,1,2,Montreal,birthday,vegan,less than $15
+338,339,2,0,125,0,79.07,11.36,77,American,Female,Sour,4,4,Kitchener,anniversary,kosher,$15 - $40
+339,340,1,0,179,0,88.78,12.79,87,Italian,Female,Salty,5,2,Hamilton,firstdate,kosher,less than $15
+340,341,0,0,84,0,61.72,14,32,French,Female,Bitter,5,3,Hamilton,lunch,halal,less than $15
+341,342,1,12.46,131,8.48,78.53,14.56,87,French,Male,Sour,4,4,Hamilton,birthday,halal,no budget
+342,343,1,0,159,0,87.98,19.88,64,Greek,Male,Salty,4,5,Winnipeg,dinner,vegetarian,no budget
+343,344,1,0,168,0,78.89,33.6,31,Japanese,Male,Sweet,2,2,Winnipeg,birthday,vegan,less than $15
+344,345,0,0,159,0,74.96,26.5,89,Mexican,Male,Sweet,2,2,Winnipeg,birthday,vegan,less than $15
+345,346,2,0,168,0,73.48,24,6,American,Male,Sweet,2,4,Montreal,birthday,halal,$15 - $40
+346,347,1,19.52,84,5.53,67.4,5.6,71,American,Male,Umami,5,3,Toronto,tourist,gluten free,$15 - $40
+347,348,1,0,172,0,68.54,34.4,89,American,Female,Sour,1,4,Kitchener,casual,gluten free,$40+
+348,349,0,13.92,112,14.24,74.14,11.2,96,Japanese,Male,Salty,1,3,Kitchener,anniversary,vegan,less than $15
+349,350,0,16.42,103,7.89,64.1,11.44,64,Japanese,Male,Salty,4,1,Winnipeg,birthday,kosher,no budget
+350,351,2,13.75,86,13.09,72.1,6.14,29,Thai,Female,Sweet,5,3,Calgary,tourist,kosher,less than $15
+351,352,0,0,125,0,71.06,8.93,61,Chinese,Male,Bitter,0,3,Vancouver,firstdate,vegan,$15 - $40
+352,353,1,0,161,0,72.19,11.5,35,Chinese,Female,Salty,5,5,Ottawa,dinner,vegan,$15 - $40
+353,354,1,0,97,0,74.69,19.4,88,Indian,Male,Bitter,1,2,Toronto,firstdate,vegan,less than $15
+354,355,0,0,162,0,70.92,23.14,36,Spanish,Female,Sweet,4,3,Toronto,casual,kosher,no budget
+355,356,0,0,62,0,85.04,6.2,35,Mexican,Male,Salty,3,5,Montreal,lunch,vegan,$40+
+356,357,1,3.9,113,14.65,87.9,12.56,33,Indian,Female,Salty,4,1,Hamilton,tourist,gluten free,$15 - $40
+357,358,2,15.95,64,12.7,85.94,4.57,22,Italian,Male,Salty,0,4,Calgary,tourist,vegetarian,less than $15
+358,359,2,0,69,0,80.15,5.31,29,American,Female,Sour,1,2,Quebec City,birthday,gluten free,$40+
+359,360,1,0,160,0,71.08,10.67,20,French,Male,Sweet,2,1,Hamilton,casual,halal,less than $15
+360,361,0,0,91,0,75.2,13,29,Thai,Female,Spicy,0,3,Quebec City,tourist,gluten free,$40+
+361,362,0,0,104,0,61.13,13,63,Japanese,Male,Bitter,2,3,Ottawa,casual,vegetarian,no budget
+362,363,0,10.91,107,12.26,69.46,17.83,77,Japanese,Male,Umami,2,2,Ottawa,firstdate,kosher,$15 - $40
+363,364,2,0,167,0,82.15,20.88,58,Greek,Female,Umami,2,4,Ottawa,birthday,halal,$40+
+364,365,0,0,120,0,69.4,24,99,Mexican,Female,Sweet,1,1,Calgary,tourist,kosher,$40+
+365,366,2,0,78,0,73.86,8.67,70,Spanish,Female,Umami,2,4,Edmonton,tourist,vegan,no budget
+366,367,1,0,91,0,70.13,10.11,78,Thai,Female,Sweet,0,4,Winnipeg,lunch,vegan,no budget
+367,368,0,0,150,0,82.46,25,8,French,Female,Bitter,5,5,Winnipeg,casual,halal,$40+
+368,369,0,0,171,0,63.27,13.15,83,Japanese,Female,Sweet,1,5,Winnipeg,firstdate,halal,no budget
+369,370,0,0,140,0,68.31,11.67,41,French,Female,Salty,0,4,Winnipeg,firstdate,kosher,$15 - $40
+370,371,1,6.86,62,8,66.74,8.86,81,Spanish,Female,Bitter,4,1,Montreal,tourist,vegetarian,less than $15
+371,372,0,2.82,62,9.3,69.58,6.89,75,Greek,Male,Bitter,2,3,Ottawa,lunch,kosher,less than $15
+372,373,1,0,99,0,89.53,7.07,35,Italian,Female,Salty,3,4,Winnipeg,dinner,halal,less than $15
+373,374,2,0,138,0,66.16,23,80,Italian,Male,Umami,5,4,Hamilton,birthday,kosher,$15 - $40
+374,375,2,0,134,0,68.84,11.17,21,French,Female,Sour,3,5,Vancouver,birthday,vegetarian,$40+
+375,376,0,0,106,0,72.58,17.67,75,Mexican,Male,Bitter,2,3,Hamilton,dinner,halal,$40+
+376,377,2,12.05,125,13.94,76.24,12.5,57,French,Female,Sweet,4,5,Ottawa,birthday,vegetarian,less than $15
+377,378,1,5.95,102,10.97,71.12,6.8,47,Mexican,Male,Sour,0,3,Ottawa,anniversary,vegetarian,no budget
+378,379,0,0,84,0,71.2,12,56,Greek,Female,Sweet,3,3,Kitchener,dinner,gluten free,no budget
+379,380,2,0,81,0,78.29,10.12,31,Indian,Female,Salty,1,1,Quebec City,casual,gluten free,$40+
+380,381,1,0,180,0,83.72,16.36,2,Greek,Male,Sour,2,3,Toronto,casual,kosher,$40+
+381,382,1,15.45,63,14.75,70.93,9,7,Japanese,Female,Spicy,0,5,Edmonton,lunch,halal,$40+
+382,383,1,0,145,0,66.77,16.11,71,American,Male,Salty,0,4,Calgary,anniversary,kosher,no budget
+383,384,0,0,160,0,78.86,17.78,90,Greek,Male,Sour,3,4,Ottawa,birthday,kosher,$40+
+384,385,2,2.45,123,8.44,74.07,13.67,5,French,Female,Salty,4,1,Edmonton,lunch,gluten free,no budget
+385,386,0,5.37,162,11.76,86.34,23.14,100,Greek,Male,Sweet,5,4,Toronto,birthday,vegan,less than $15
+386,387,1,0,166,0,66.46,11.07,68,French,Female,Sweet,1,2,Vancouver,firstdate,vegetarian,$40+
+387,388,1,0,72,0,70.05,9,57,Spanish,Male,Salty,0,4,Edmonton,birthday,gluten free,less than $15
+388,389,1,0,169,0,83.67,11.27,40,Mexican,Female,Spicy,3,1,Quebec City,casual,vegetarian,$40+
+389,390,1,0,100,0,61.69,10,73,French,Male,Salty,4,2,Edmonton,dinner,kosher,less than $15
+390,391,1,0,157,0,61.94,14.27,45,Thai,Male,Spicy,0,4,Winnipeg,birthday,halal,$40+
+391,392,1,0,65,0,62.96,5,59,American,Female,Salty,0,3,Vancouver,tourist,vegan,no budget
+392,393,0,0,67,0,65.96,4.79,78,Indian,Male,Sour,4,3,Hamilton,lunch,vegan,$15 - $40
+393,394,1,0,87,0,77.36,6.21,76,Italian,Female,Sour,4,5,Toronto,dinner,gluten free,$15 - $40
+394,395,2,0,80,0,78.87,6.67,34,Japanese,Female,Spicy,2,2,Vancouver,dinner,vegan,less than $15
+395,396,2,0,111,0,81.48,13.88,64,American,Female,Sour,4,5,Vancouver,casual,vegan,no budget
+396,397,1,0,168,0,63.96,15.27,46,Mexican,Male,Umami,5,1,Ottawa,anniversary,kosher,less than $15
+397,398,1,3.33,83,7.84,68.42,8.3,43,Japanese,Male,Salty,3,3,Edmonton,lunch,vegan,$40+
+398,399,2,0,71,0,63.9,11.83,18,Mexican,Male,Umami,5,4,Hamilton,dinner,kosher,less than $15
+399,400,2,2.02,94,5.09,63.94,8.55,9,Greek,Female,Spicy,3,5,Montreal,lunch,kosher,$40+
+400,401,2,0,108,0,71.44,21.6,22,Indian,Male,Umami,5,3,Vancouver,firstdate,vegan,no budget
+401,402,1,0,65,0,69.04,8.12,78,Chinese,Female,Sour,0,4,Montreal,anniversary,halal,no budget
+402,403,2,2.06,92,13.36,88.31,7.08,79,Chinese,Male,Sour,2,4,Vancouver,birthday,halal,no budget
+403,404,1,0,123,0,70.49,8.2,30,American,Male,Spicy,3,2,Hamilton,tourist,vegetarian,$15 - $40
+404,405,2,16.46,154,12.68,84.23,22,33,French,Male,Salty,0,3,Vancouver,tourist,halal,$40+
+405,406,1,4.63,95,10.73,70.06,8.64,90,French,Male,Sour,2,2,Montreal,lunch,halal,$15 - $40
+406,407,1,0,170,0,78.5,13.08,20,Spanish,Female,Spicy,0,4,Edmonton,dinner,halal,$15 - $40
+407,408,0,0,75,0,68.78,8.33,20,Indian,Male,Bitter,1,3,Quebec City,casual,halal,$15 - $40
+408,409,1,0,130,0,74.17,13,97,American,Female,Bitter,0,1,Winnipeg,firstdate,gluten free,$40+
+409,410,0,0,96,0,61.5,10.67,78,Mexican,Female,Bitter,3,4,Hamilton,dinner,vegan,$15 - $40
+410,411,2,0,96,0,88.35,10.67,25,Mexican,Male,Spicy,0,2,Montreal,anniversary,kosher,$15 - $40
+411,412,2,0,117,0,72.74,8.36,96,Indian,Male,Sour,2,4,Hamilton,tourist,gluten free,less than $15
+412,413,1,0,179,0,82.52,12.79,9,Chinese,Female,Spicy,4,4,Winnipeg,firstdate,gluten free,$15 - $40
+413,414,1,0,124,0,79.4,8.27,26,Greek,Female,Spicy,0,4,Calgary,birthday,vegetarian,no budget
+414,415,0,0,171,0,83.35,14.25,55,Mexican,Male,Sweet,0,1,Quebec City,dinner,halal,$40+
+415,416,0,0,71,0,74.5,11.83,39,French,Female,Salty,5,2,Vancouver,anniversary,vegetarian,$40+
+416,417,1,0.11,173,14.91,61.5,21.62,68,Chinese,Female,Salty,1,1,Toronto,tourist,halal,$40+
+417,418,0,0,111,0,63.37,15.86,37,Indian,Male,Umami,1,4,Winnipeg,dinner,vegetarian,less than $15
+418,419,1,0,77,0,64.4,8.56,37,Greek,Female,Sweet,1,4,Kitchener,casual,kosher,$40+
+419,420,1,9.46,100,11.29,82.15,20,33,Mexican,Female,Sweet,2,4,Quebec City,dinner,vegetarian,less than $15
+420,421,1,5.01,80,12.03,88.76,8.89,33,American,Female,Sweet,2,5,Kitchener,anniversary,halal,$40+
+421,422,1,0,145,0,86.11,20.71,89,Japanese,Male,Umami,0,4,Winnipeg,casual,kosher,$15 - $40
+422,423,1,0,120,0,84.95,24,34,Italian,Female,Umami,3,3,Kitchener,lunch,vegetarian,$15 - $40
+423,424,0,3.91,159,5.21,79.43,11.36,52,Chinese,Female,Spicy,5,5,Hamilton,tourist,halal,no budget
+424,425,2,0,101,0,84.45,11.22,55,Spanish,Male,Sweet,5,2,Calgary,birthday,gluten free,no budget
+425,426,1,0,73,0,74.65,7.3,13,Japanese,Male,Sweet,3,3,Toronto,dinner,gluten free,$15 - $40
+426,427,1,12.01,103,9.12,75.96,6.87,26,Mexican,Female,Spicy,3,3,Hamilton,dinner,vegan,$40+
+427,428,1,4.37,60,13.29,70.7,5,36,Greek,Male,Bitter,0,3,Toronto,birthday,gluten free,less than $15
+428,429,1,0,65,0,67.99,8.12,40,Indian,Female,Bitter,5,5,Vancouver,tourist,kosher,$15 - $40
+429,430,1,0,161,0,63.22,11.5,80,American,Male,Salty,4,4,Ottawa,dinner,halal,less than $15
+430,431,2,16.81,91,13.14,81.83,7.58,76,Thai,Female,Spicy,5,4,Ottawa,tourist,gluten free,$40+
+431,432,1,0,138,0,69.91,12.55,26,Chinese,Female,Umami,5,1,Winnipeg,dinner,kosher,no budget
+432,433,1,13.37,172,10.05,84.07,28.67,77,Thai,Male,Sweet,5,1,Montreal,firstdate,vegetarian,$15 - $40
+433,434,0,0,180,0,86.6,22.5,22,Indian,Female,Bitter,3,3,Ottawa,tourist,kosher,no budget
+434,435,0,8.24,101,13.42,73.39,9.18,96,Spanish,Male,Sour,2,5,Winnipeg,casual,vegetarian,$40+
+435,436,2,0,60,0,83.83,6,58,Chinese,Female,Bitter,1,1,Edmonton,birthday,vegetarian,$15 - $40
+436,437,2,8.29,91,7.14,84.28,7.58,3,Italian,Male,Sweet,2,1,Vancouver,birthday,vegan,no budget
+437,438,1,0,177,0,78.87,11.8,74,Thai,Male,Spicy,5,4,Toronto,anniversary,gluten free,less than $15
+438,439,2,0,148,0,89.13,9.87,32,Italian,Male,Sour,1,2,Edmonton,firstdate,vegetarian,$15 - $40
+439,440,2,0,142,0,70.63,20.29,94,Mexican,Male,Umami,0,5,Montreal,birthday,halal,$40+
+440,441,1,0,106,0,75.38,13.25,15,Japanese,Male,Spicy,0,4,Ottawa,lunch,vegetarian,no budget
+441,442,2,10.39,104,9.37,89.43,9.45,14,Chinese,Male,Bitter,1,5,Ottawa,dinner,gluten free,$15 - $40
+442,443,1,1.5,77,6.49,77.37,5.13,96,Spanish,Female,Spicy,5,1,Hamilton,casual,halal,no budget
+443,444,0,0,168,0,78.33,24,64,French,Female,Bitter,4,1,Montreal,firstdate,vegetarian,less than $15
+444,445,0,0,105,0,85.4,7,43,Japanese,Female,Umami,4,3,Edmonton,casual,gluten free,$40+
+445,446,0,0,87,0,63.87,17.4,21,Greek,Female,Sweet,4,1,Vancouver,anniversary,vegan,$15 - $40
+446,447,2,15.5,123,8.62,77.69,8.79,63,Indian,Female,Bitter,4,5,Vancouver,casual,kosher,$40+
+447,448,1,3.23,138,11.91,66.56,27.6,52,French,Female,Spicy,4,2,Winnipeg,dinner,vegetarian,$40+
+448,449,0,0,97,0,78.84,10.78,1,Greek,Male,Sour,1,3,Winnipeg,tourist,kosher,less than $15
+449,450,1,0,166,0,78.35,23.71,78,Indian,Male,Umami,1,5,Calgary,dinner,gluten free,no budget
+450,451,1,0,67,0,86.09,7.44,3,Spanish,Male,Sour,5,2,Vancouver,dinner,vegetarian,less than $15
+451,452,0,16.39,104,10.7,81.22,20.8,10,Greek,Male,Umami,0,4,Kitchener,anniversary,vegan,$40+
+452,453,2,0,138,0,87.29,10.62,6,Japanese,Female,Sweet,5,2,Winnipeg,dinner,halal,$40+
+453,454,1,0,150,0,65.23,12.5,33,Japanese,Female,Umami,4,1,Edmonton,anniversary,gluten free,$15 - $40
+454,455,0,1.74,61,12.84,86.16,4.07,12,Japanese,Female,Spicy,2,5,Toronto,lunch,kosher,$15 - $40
+455,456,1,14.78,142,9.34,76.58,15.78,87,Chinese,Male,Sweet,2,1,Ottawa,dinner,gluten free,$15 - $40
+456,457,1,0,93,0,87.22,6.64,61,Chinese,Female,Spicy,0,3,Vancouver,tourist,vegetarian,less than $15
+457,458,2,0,106,0,68.55,11.78,75,American,Female,Sour,1,4,Toronto,tourist,halal,less than $15
+458,459,1,0,125,0,75.95,10.42,37,Mexican,Male,Sweet,2,5,Ottawa,anniversary,vegetarian,less than $15
+459,460,2,0,177,0,73.68,19.67,27,Chinese,Female,Sweet,2,5,Winnipeg,lunch,vegan,no budget
+460,461,0,0,113,0,83.24,10.27,21,Indian,Female,Umami,2,1,Edmonton,dinner,kosher,no budget
+461,462,1,6.42,117,9.73,74.28,13,100,Chinese,Female,Umami,0,4,Montreal,anniversary,halal,$40+
+462,463,2,13.56,96,13.28,65.78,12,23,Italian,Female,Sweet,1,5,Kitchener,anniversary,halal,no budget
+463,464,2,0,82,0,89.2,7.45,62,Japanese,Female,Spicy,1,5,Montreal,birthday,vegetarian,no budget
+464,465,0,0,177,0,73,16.09,67,Mexican,Male,Umami,2,1,Kitchener,tourist,gluten free,$15 - $40
+465,466,0,0,100,0,79.44,7.69,91,Spanish,Female,Sweet,1,5,Montreal,dinner,vegan,$40+
+466,467,0,19.58,81,7.73,84.6,10.12,89,Japanese,Male,Sweet,4,5,Kitchener,birthday,gluten free,no budget
+467,468,0,0,120,0,73.48,9.23,82,Japanese,Male,Sour,3,1,Vancouver,firstdate,kosher,$15 - $40
+468,469,1,0,79,0,71,15.8,74,Mexican,Male,Spicy,4,2,Vancouver,anniversary,gluten free,$15 - $40
+469,470,0,8.86,145,14.94,85.46,29,32,Spanish,Male,Spicy,0,4,Vancouver,casual,kosher,no budget
+470,471,0,18.42,175,6.78,76.58,13.46,92,Indian,Male,Spicy,3,3,Montreal,dinner,kosher,$15 - $40
+471,472,2,0,119,0,76.15,23.8,93,Thai,Male,Salty,1,2,Winnipeg,lunch,kosher,no budget
+472,473,0,0,132,0,85.38,22,98,Greek,Female,Spicy,2,4,Vancouver,anniversary,gluten free,$40+
+473,474,1,7.72,179,5.48,87.3,16.27,6,Greek,Female,Salty,4,4,Quebec City,birthday,kosher,less than $15
+474,475,0,0,97,0,63.44,6.47,18,Mexican,Male,Sweet,1,5,Vancouver,anniversary,kosher,$40+
+475,476,2,0,155,0,80.82,14.09,100,Chinese,Female,Spicy,0,3,Quebec City,birthday,vegan,no budget
+476,477,2,0,137,0,83.56,27.4,52,American,Male,Bitter,2,1,Edmonton,tourist,gluten free,less than $15
+477,478,0,9.12,70,12.69,70.86,4.67,49,Mexican,Male,Umami,3,3,Vancouver,tourist,gluten free,no budget
+478,479,0,0,124,0,87.61,12.4,53,Japanese,Female,Bitter,0,2,Hamilton,firstdate,vegan,less than $15
+479,480,0,0,78,0,67.46,5.57,45,Indian,Male,Umami,2,2,Edmonton,anniversary,halal,$15 - $40
+480,481,1,5.58,142,9.14,67.24,9.47,29,American,Female,Salty,1,5,Winnipeg,birthday,vegetarian,less than $15
+481,482,2,0,107,0,62.57,13.38,32,Italian,Male,Sour,4,5,Hamilton,lunch,gluten free,$15 - $40
+482,483,1,0,179,0,61.44,29.83,65,French,Female,Bitter,0,4,Toronto,firstdate,vegetarian,$15 - $40
+483,484,1,0,170,0,72.73,17,87,American,Male,Sweet,1,4,Ottawa,casual,gluten free,less than $15
+484,485,2,1.23,164,8.64,86.57,16.4,40,Spanish,Male,Umami,5,5,Quebec City,casual,halal,less than $15
+485,486,1,0,176,0,76.31,12.57,94,Greek,Female,Sweet,4,4,Calgary,anniversary,vegetarian,less than $15
+486,487,2,0,161,0,66.14,11.5,71,Spanish,Male,Salty,4,2,Quebec City,tourist,halal,$40+
+487,488,2,0,82,0,84.28,6.31,58,Spanish,Female,Bitter,2,3,Vancouver,casual,kosher,$15 - $40
+488,489,1,0,130,0,66.47,16.25,32,American,Female,Spicy,4,4,Toronto,dinner,gluten free,less than $15
+489,490,0,0,103,0,65.16,17.17,73,French,Male,Sour,1,5,Hamilton,tourist,kosher,$40+
+490,491,1,0,171,0,88.24,34.2,16,Italian,Female,Sour,5,5,Calgary,anniversary,vegetarian,less than $15
+491,492,0,0,134,0,67.79,9.57,24,Japanese,Female,Salty,1,4,Kitchener,anniversary,vegan,less than $15
+492,493,0,0,82,0,89.09,13.67,8,Italian,Male,Sour,4,2,Vancouver,birthday,gluten free,$15 - $40
+493,494,2,0,69,0,60.09,6.9,73,Chinese,Female,Salty,5,3,Quebec City,anniversary,vegan,no budget
+494,495,0,8.73,92,12.87,82.12,10.22,16,Italian,Female,Umami,0,5,Ottawa,firstdate,vegan,less than $15
+495,496,2,0,129,0,73.62,8.6,17,Italian,Male,Umami,5,1,Vancouver,lunch,kosher,no budget
+496,497,0,16.85,139,14.3,87.65,23.17,63,Chinese,Male,Bitter,0,2,Quebec City,firstdate,halal,less than $15
+497,498,2,0,107,0,67.17,11.89,92,Indian,Male,Bitter,4,1,Quebec City,tourist,gluten free,$15 - $40
+498,499,0,1.35,143,9.26,87.36,14.3,22,Mexican,Female,Spicy,1,4,Quebec City,dinner,gluten free,$15 - $40
+499,500,0,0,125,0,88.1,20.83,75,French,Male,Spicy,1,5,Quebec City,birthday,vegan,less than $15
+500,501,1,0,71,0,87.92,7.1,57,French,Female,Bitter,2,4,Calgary,tourist,vegetarian,$40+
+501,502,0,6.56,115,11.66,73.86,9.58,75,Spanish,Female,Salty,5,5,Edmonton,lunch,gluten free,$15 - $40
+502,503,2,15.72,160,6.56,81.46,12.31,54,Mexican,Male,Sweet,0,4,Calgary,casual,vegetarian,no budget
+503,504,1,0,172,0,86.7,12.29,16,American,Female,Sour,2,2,Kitchener,firstdate,vegetarian,$15 - $40
+504,505,2,9.14,163,5.48,65.38,10.87,47,Thai,Male,Sour,2,2,Montreal,anniversary,vegetarian,$15 - $40
+505,506,2,0,74,0,81.99,9.25,45,Spanish,Male,Umami,5,1,Edmonton,anniversary,vegan,$40+
+506,507,0,0,113,0,65.73,7.53,93,Greek,Male,Bitter,3,5,Toronto,lunch,kosher,$15 - $40
+507,508,1,15.05,103,14.12,63.35,10.3,12,French,Male,Umami,4,4,Vancouver,anniversary,vegan,less than $15
+508,509,0,0,128,0,63.19,14.22,22,Spanish,Male,Sour,5,2,Quebec City,lunch,vegan,no budget
+509,510,1,10.95,172,7.83,76.13,21.5,38,Greek,Female,Bitter,3,3,Vancouver,tourist,vegetarian,$40+
+510,511,1,0,150,0,60.24,15,71,Greek,Female,Umami,0,1,Ottawa,dinner,kosher,less than $15
+511,512,1,0,129,0,63.66,21.5,15,Chinese,Male,Sweet,3,5,Kitchener,firstdate,vegan,$40+
+512,513,0,0,87,0,61.6,5.8,28,Indian,Male,Bitter,4,1,Toronto,tourist,halal,less than $15
+513,514,0,0,102,0,76.72,11.33,8,Greek,Female,Umami,2,1,Winnipeg,tourist,kosher,no budget
+514,515,1,4.91,83,5.76,79.17,7.55,94,French,Female,Sweet,4,1,Toronto,casual,gluten free,no budget
+515,516,1,6.27,118,14.29,76.57,13.11,39,Chinese,Male,Salty,0,3,Hamilton,casual,vegan,$40+
+516,517,2,0,143,0,64.83,17.88,81,Mexican,Male,Umami,3,5,Montreal,anniversary,kosher,less than $15
+517,518,2,0,88,0,65.3,7.33,50,Indian,Female,Salty,2,3,Vancouver,dinner,gluten free,less than $15
+518,519,1,5.36,169,7.67,66.18,24.14,57,Thai,Male,Spicy,4,2,Toronto,dinner,vegetarian,$15 - $40
+519,520,2,0,174,0,76.93,21.75,3,Japanese,Female,Sweet,5,1,Hamilton,casual,kosher,no budget
+520,521,1,0,101,0,62.91,12.62,18,Greek,Male,Salty,5,3,Hamilton,firstdate,halal,less than $15
+521,522,1,3.71,174,13.36,64.86,24.86,21,Thai,Female,Umami,2,3,Ottawa,anniversary,gluten free,$15 - $40
+522,523,2,15.98,96,10.18,81.97,9.6,12,French,Male,Bitter,4,4,Vancouver,casual,halal,$15 - $40
+523,524,1,0,135,0,72.47,19.29,34,Chinese,Male,Salty,5,1,Montreal,tourist,gluten free,no budget
+524,525,1,0,131,0,83.41,9.36,92,Mexican,Male,Salty,5,3,Kitchener,anniversary,halal,$40+
+525,526,1,4.92,124,7.55,67.88,24.8,9,Japanese,Male,Salty,4,3,Ottawa,dinner,kosher,$40+
+526,527,0,0,149,0,78.58,12.42,92,Chinese,Male,Salty,1,5,Montreal,tourist,halal,no budget
+527,528,1,0,116,0,66,10.55,17,Italian,Male,Umami,5,4,Winnipeg,tourist,kosher,$15 - $40
+528,529,1,0,87,0,89.78,17.4,56,French,Female,Salty,1,5,Vancouver,lunch,vegetarian,$15 - $40
+529,530,1,0,146,0,83.11,14.6,98,Spanish,Female,Salty,2,4,Montreal,tourist,kosher,$15 - $40
+530,531,2,0,79,0,81.31,15.8,77,American,Female,Bitter,2,2,Montreal,anniversary,gluten free,$40+
+531,532,1,0,85,0,80.98,9.44,62,Japanese,Female,Bitter,1,1,Calgary,firstdate,vegan,$15 - $40
+532,533,2,14.42,83,14.24,73.27,6.92,54,Japanese,Male,Sweet,4,5,Hamilton,casual,gluten free,less than $15
+533,534,2,0,127,0,62.32,21.17,35,American,Male,Spicy,1,4,Hamilton,birthday,kosher,$40+
+534,535,1,0,87,0,82.84,17.4,43,Indian,Female,Bitter,0,2,Kitchener,dinner,vegan,no budget
+535,536,2,0,166,0,69.86,16.6,41,American,Male,Salty,5,1,Winnipeg,tourist,vegetarian,no budget
+536,537,0,0,139,0,86.24,27.8,97,Mexican,Female,Salty,0,2,Vancouver,firstdate,gluten free,$40+
+537,538,1,0,174,0,72.71,34.8,73,Japanese,Male,Umami,0,2,Quebec City,anniversary,halal,$15 - $40
+538,539,2,0,107,0,69.19,8.92,47,Thai,Male,Spicy,0,3,Edmonton,lunch,halal,$15 - $40
+539,540,2,0,111,0,72.63,13.88,45,Japanese,Male,Sweet,3,3,Quebec City,birthday,halal,$40+
+540,541,1,19.02,131,13.74,60.23,18.71,25,Greek,Female,Bitter,0,3,Hamilton,casual,gluten free,no budget
+541,542,1,0,68,0,72.25,11.33,58,Spanish,Male,Spicy,0,4,Calgary,casual,kosher,no budget
+542,543,1,15.7,118,10.7,86.78,13.11,92,American,Male,Salty,2,5,Ottawa,tourist,halal,$40+
+543,544,1,17.18,84,14.14,65.69,14,99,Greek,Female,Spicy,1,1,Quebec City,anniversary,kosher,$15 - $40
+544,545,2,0,87,0,65.59,5.8,9,Japanese,Female,Sour,5,4,Toronto,anniversary,gluten free,$15 - $40
+545,546,0,0,167,0,89.37,12.85,21,Chinese,Female,Umami,3,2,Kitchener,tourist,vegan,$15 - $40
+546,547,1,12.34,144,5.61,85.26,28.8,20,Italian,Male,Bitter,4,5,Hamilton,anniversary,halal,less than $15
+547,548,0,0,123,0,82.45,9.46,87,Thai,Female,Umami,3,3,Edmonton,firstdate,halal,less than $15
+548,549,1,0.54,82,8.55,68.55,5.47,64,Greek,Female,Umami,0,1,Calgary,lunch,halal,less than $15
+549,550,2,11.74,95,5.93,72.95,11.88,65,Mexican,Female,Spicy,5,1,Calgary,casual,kosher,$15 - $40
+550,551,2,0,121,0,67.21,17.29,41,American,Female,Bitter,5,1,Edmonton,birthday,kosher,$15 - $40
+551,552,0,1.4,68,5.45,71.65,6.18,18,Italian,Female,Umami,4,4,Hamilton,lunch,vegetarian,$40+
+552,553,1,0,134,0,70.49,8.93,49,American,Male,Spicy,3,1,Vancouver,firstdate,kosher,$15 - $40
+553,554,1,0,149,0,73.98,10.64,63,Japanese,Female,Umami,3,2,Quebec City,birthday,vegetarian,$15 - $40
+554,555,2,0,140,0,77.71,23.33,75,American,Female,Bitter,1,4,Hamilton,dinner,vegetarian,$40+
+555,556,1,5.12,125,9.03,76.61,13.89,9,Italian,Female,Sour,2,4,Ottawa,dinner,vegetarian,less than $15
+556,557,0,0,72,0,84.55,5.14,35,Japanese,Male,Spicy,0,4,Edmonton,birthday,halal,$40+
+557,558,2,11.04,144,9.91,74.78,16,9,American,Male,Sweet,4,2,Edmonton,dinner,kosher,no budget
+558,559,2,0,78,0,62.98,11.14,18,Spanish,Female,Umami,1,3,Ottawa,dinner,vegan,less than $15
+559,560,1,0,152,0,86.15,30.4,71,Thai,Male,Sour,2,2,Kitchener,casual,vegan,less than $15
+560,561,2,0,127,0,71.48,18.14,87,Indian,Female,Spicy,2,4,Montreal,lunch,kosher,$15 - $40
+561,562,1,0,97,0,61.19,12.12,60,Mexican,Female,Bitter,0,4,Edmonton,firstdate,kosher,less than $15
+562,563,2,0,138,0,79.31,9.2,36,Greek,Male,Bitter,4,5,Kitchener,anniversary,halal,less than $15
+563,564,2,0,115,0,75.46,19.17,25,Japanese,Female,Sour,1,5,Montreal,birthday,vegan,less than $15
+564,565,1,0,105,0,76.77,9.55,80,American,Female,Umami,0,1,Winnipeg,tourist,vegetarian,less than $15
+565,566,0,0,148,0,68.38,14.8,85,Japanese,Female,Sour,5,4,Ottawa,dinner,vegan,$40+
+566,567,1,0,132,0,62.91,11,87,Mexican,Female,Sweet,4,4,Vancouver,dinner,kosher,less than $15
+567,568,2,0,76,0,85.06,12.67,94,Mexican,Female,Salty,1,5,Montreal,lunch,halal,$40+
+568,569,1,0,93,0,67.95,11.62,91,Chinese,Female,Spicy,0,3,Vancouver,firstdate,vegetarian,$40+
+569,570,2,0,154,0,81.67,25.67,67,Italian,Male,Salty,5,5,Kitchener,firstdate,gluten free,less than $15
+570,571,2,0,164,0,75.16,27.33,50,Spanish,Male,Spicy,4,2,Toronto,dinner,vegetarian,$15 - $40
+571,572,2,0,107,0,70.34,8.23,60,Chinese,Male,Spicy,1,5,Hamilton,dinner,kosher,$15 - $40
+572,573,1,0,68,0,73.29,13.6,60,Mexican,Male,Sweet,4,2,Hamilton,tourist,kosher,$15 - $40
+573,574,0,0,175,0,68.17,19.44,91,Japanese,Male,Bitter,3,1,Toronto,casual,vegan,less than $15
+574,575,2,0,176,0,63.51,25.14,97,American,Male,Spicy,0,4,Calgary,lunch,vegetarian,less than $15
+575,576,2,1.32,104,13.55,61.61,6.93,74,Chinese,Female,Sour,0,4,Vancouver,lunch,kosher,$15 - $40
+576,577,0,0,77,0,68.45,7.7,39,Chinese,Female,Salty,0,4,Ottawa,lunch,halal,$15 - $40
+577,578,2,0,77,0,65.02,5.5,4,Thai,Male,Bitter,2,3,Toronto,lunch,halal,$40+
+578,579,0,0,126,0,87.95,25.2,11,Indian,Male,Sweet,4,5,Ottawa,birthday,vegetarian,no budget
+579,580,1,0,130,0,85.74,8.67,74,American,Male,Spicy,1,5,Montreal,tourist,kosher,less than $15
+580,581,1,0,161,0,79.11,14.64,45,Spanish,Male,Salty,4,3,Winnipeg,casual,gluten free,$15 - $40
+581,582,0,0,60,0,84.75,4.29,25,Spanish,Female,Salty,5,4,Edmonton,casual,gluten free,no budget
+582,583,0,0,156,0,70.59,10.4,55,French,Female,Sour,2,3,Edmonton,anniversary,gluten free,$40+
+583,584,2,0,68,0,82.21,4.86,88,Chinese,Female,Bitter,5,4,Winnipeg,birthday,vegan,less than $15
+584,585,1,0,149,0,83.6,29.8,44,French,Female,Sweet,3,1,Hamilton,anniversary,vegan,$40+
+585,586,1,0,95,0,85.14,7.92,26,Italian,Male,Sweet,2,3,Montreal,dinner,gluten free,$40+
+586,587,2,8.77,177,13.18,71.15,13.62,19,French,Male,Sour,0,5,Montreal,dinner,vegan,$15 - $40
+587,588,1,0,124,0,86.2,17.71,68,Italian,Female,Sour,4,5,Toronto,firstdate,gluten free,$40+
+588,589,0,0.31,80,8.6,87.18,8,4,American,Female,Sweet,2,4,Vancouver,tourist,vegetarian,no budget
+589,590,1,6.32,142,13.72,71.46,14.2,76,Chinese,Female,Spicy,5,1,Quebec City,anniversary,vegan,$40+
+590,591,1,0,149,0,87.39,13.55,50,Mexican,Male,Spicy,3,5,Ottawa,lunch,vegan,no budget
+591,592,0,0,160,0,69.62,10.67,65,Thai,Male,Sour,1,5,Ottawa,birthday,halal,less than $15
+592,593,2,0,67,0,82.7,7.44,49,Japanese,Female,Salty,3,3,Quebec City,lunch,vegan,$40+
+593,594,2,6.42,149,14.05,68.32,16.56,96,Chinese,Female,Salty,5,3,Montreal,tourist,kosher,$15 - $40
+594,595,0,0,179,0,69.93,25.57,14,Italian,Female,Bitter,4,1,Winnipeg,firstdate,kosher,no budget
+595,596,0,0,93,0,73.71,10.33,75,Thai,Male,Sour,4,4,Toronto,dinner,kosher,$15 - $40
+596,597,1,0,107,0,69.9,8.92,36,French,Male,Salty,0,4,Calgary,birthday,vegan,less than $15
+597,598,0,0,140,0,70.28,15.56,76,Spanish,Male,Umami,4,3,Quebec City,anniversary,vegan,$15 - $40
+598,599,1,1.7,75,6.67,67.26,5.36,46,Indian,Female,Sweet,4,1,Edmonton,dinner,kosher,no budget
+599,600,1,0,110,0,74.62,22,90,French,Male,Spicy,0,4,Edmonton,lunch,kosher,$40+
+600,601,0,9.72,107,5.89,71.87,11.89,39,Italian,Female,Salty,4,2,Ottawa,anniversary,vegan,$40+
+601,602,2,8.85,95,10.46,68.52,13.57,63,American,Male,Sweet,4,2,Ottawa,birthday,halal,less than $15
+602,603,1,0,156,0,72.55,31.2,75,Greek,Female,Salty,0,4,Toronto,dinner,halal,no budget
+603,604,2,0,112,0,69.2,8,70,Mexican,Female,Sweet,4,3,Montreal,tourist,halal,less than $15
+604,605,1,0,147,0,64.62,29.4,23,Chinese,Male,Sweet,3,2,Edmonton,tourist,gluten free,$40+
+605,606,1,0,161,0,89.41,32.2,56,American,Male,Sweet,5,3,Hamilton,anniversary,kosher,$15 - $40
+606,607,0,7.59,83,12.37,64.39,7.55,23,Greek,Male,Umami,3,1,Vancouver,birthday,vegetarian,no budget
+607,608,0,0,62,0,89.94,7.75,49,Italian,Female,Sweet,1,2,Calgary,tourist,vegan,$15 - $40
+608,609,1,0,176,0,60.93,25.14,90,American,Female,Spicy,2,5,Vancouver,firstdate,vegan,no budget
+609,610,1,0,123,0,69.46,11.18,96,Indian,Female,Salty,5,2,Toronto,firstdate,gluten free,less than $15
+610,611,2,11.06,102,7.89,77.57,17,51,Indian,Male,Sweet,0,1,Toronto,lunch,gluten free,no budget
+611,612,1,1.62,86,11.17,71.17,7.82,84,Mexican,Male,Spicy,2,3,Toronto,firstdate,gluten free,$15 - $40
+612,613,1,17.95,122,9.89,79.77,11.09,9,Greek,Female,Salty,2,5,Toronto,firstdate,halal,$15 - $40
+613,614,1,0,81,0,70.42,5.4,19,Mexican,Female,Bitter,0,1,Vancouver,birthday,vegan,no budget
+614,615,0,0,148,0,75.79,11.38,23,Spanish,Male,Salty,1,4,Quebec City,birthday,gluten free,$40+
+615,616,1,0,148,0,72.38,11.38,95,Spanish,Male,Spicy,1,3,Montreal,firstdate,vegan,$40+
+616,617,2,0,107,0,60.27,10.7,80,French,Female,Sour,4,2,Quebec City,dinner,halal,less than $15
+617,618,1,0,65,0,81.87,10.83,4,Indian,Female,Bitter,4,3,Montreal,tourist,gluten free,$15 - $40
+618,619,0,0,112,0,69.86,10.18,56,Spanish,Female,Sour,0,3,Ottawa,firstdate,vegetarian,no budget
+619,620,1,5.14,77,7.8,78.4,8.56,36,Spanish,Male,Bitter,2,2,Winnipeg,tourist,kosher,$15 - $40
+620,621,0,0,115,0,89.2,8.21,43,Greek,Male,Bitter,3,5,Ottawa,birthday,kosher,$15 - $40
+621,622,2,0,118,0,86.18,23.6,100,French,Female,Sour,0,5,Toronto,anniversary,vegan,$40+
+622,623,0,0,135,0,64.66,15,84,French,Female,Bitter,5,1,Toronto,lunch,vegan,no budget
+623,624,1,0,146,0,70.65,24.33,92,Japanese,Male,Spicy,2,2,Vancouver,anniversary,gluten free,no budget
+624,625,1,0,110,0,63.59,12.22,86,French,Male,Bitter,5,3,Montreal,casual,gluten free,$15 - $40
+625,626,1,0,85,0,69.4,9.44,81,Mexican,Female,Sweet,5,5,Kitchener,firstdate,vegan,less than $15
+626,627,2,0,122,0,83.46,10.17,5,Greek,Female,Sour,1,5,Winnipeg,firstdate,vegetarian,$40+
+627,628,1,0,141,0,71.74,10.85,32,Spanish,Male,Bitter,2,1,Vancouver,birthday,vegan,less than $15
+628,629,0,0,92,0,65.41,9.2,4,Italian,Female,Sour,4,5,Kitchener,casual,halal,$15 - $40
+629,630,0,15.02,113,6.74,71.07,8.69,41,Mexican,Male,Sour,4,3,Kitchener,dinner,kosher,less than $15
+630,631,1,0,174,0,70.08,11.6,26,American,Female,Spicy,3,2,Calgary,birthday,vegetarian,less than $15
+631,632,0,0,164,0,63.7,32.8,46,Indian,Male,Umami,0,2,Quebec City,firstdate,gluten free,$15 - $40
+632,633,0,0.56,174,12.53,80.22,24.86,51,Indian,Female,Bitter,2,1,Quebec City,dinner,vegan,$40+
+633,634,0,0,105,0,69.93,7,48,Japanese,Male,Bitter,4,2,Toronto,casual,gluten free,no budget
+634,635,1,14.93,155,10.78,88.7,15.5,99,Mexican,Male,Sweet,3,2,Kitchener,lunch,vegan,no budget
+635,636,1,0,74,0,87.13,4.93,55,Mexican,Male,Sour,3,2,Quebec City,casual,vegetarian,$15 - $40
+636,637,1,0,173,0,81.29,11.53,58,Mexican,Female,Salty,4,1,Vancouver,firstdate,halal,$40+
+637,638,1,0,122,0,77.98,20.33,91,Greek,Female,Spicy,2,4,Toronto,firstdate,gluten free,no budget
+638,639,0,0.59,86,8.5,75.62,14.33,1,Indian,Male,Bitter,5,5,Quebec City,casual,vegan,$15 - $40
+639,640,0,0,64,0,78.88,4.57,43,French,Male,Sweet,1,3,Hamilton,birthday,halal,$40+
+640,641,1,0,106,0,63.22,17.67,13,American,Female,Bitter,0,3,Ottawa,lunch,kosher,less than $15
+641,642,1,0,102,0,68.93,11.33,14,Italian,Female,Spicy,3,4,Vancouver,firstdate,gluten free,no budget
+642,643,0,0,123,0,82.38,8.79,69,Mexican,Female,Sweet,3,2,Toronto,dinner,vegan,$15 - $40
+643,644,0,12.05,64,11.26,71.84,9.14,59,Indian,Female,Sour,5,1,Montreal,tourist,vegan,less than $15
+644,645,1,0,118,0,85.16,8.43,16,American,Female,Sweet,5,5,Toronto,dinner,vegan,$40+
+645,646,2,0,141,0,89.9,28.2,47,American,Male,Umami,3,1,Ottawa,birthday,vegetarian,no budget
+646,647,0,6.72,114,13.41,67.59,9.5,25,Japanese,Male,Sour,4,1,Winnipeg,casual,vegan,$40+
+647,648,2,0,150,0,75.74,11.54,63,French,Female,Bitter,0,3,Ottawa,firstdate,gluten free,$40+
+648,649,0,0,176,0,68.25,25.14,20,Indian,Female,Sour,2,3,Ottawa,lunch,halal,no budget
+649,650,2,0,167,0,68.7,20.88,8,Chinese,Female,Spicy,5,5,Vancouver,dinner,halal,$40+
+650,651,0,19.7,135,5.95,73.7,27,57,Spanish,Male,Salty,5,2,Kitchener,birthday,gluten free,$15 - $40
+651,652,0,2.58,83,8.28,62.29,5.53,35,Mexican,Male,Umami,5,2,Calgary,firstdate,vegan,$40+
+652,653,2,0,177,0,83.03,16.09,97,Greek,Male,Sour,4,4,Edmonton,dinner,vegetarian,$15 - $40
+653,654,0,4.85,162,10.79,87.78,27,81,Italian,Female,Salty,2,3,Hamilton,dinner,vegan,less than $15
+654,655,1,0,123,0,61.36,8.2,61,Greek,Male,Bitter,3,4,Kitchener,anniversary,vegan,less than $15
+655,656,0,17.8,131,12.72,60.71,18.71,78,Indian,Female,Bitter,1,5,Edmonton,tourist,vegetarian,less than $15
+656,657,2,7.74,166,5.02,81.43,20.75,69,American,Male,Sweet,5,5,Hamilton,casual,vegan,no budget
+657,658,2,5.23,75,11.07,81.97,6.82,52,Thai,Female,Salty,2,2,Calgary,casual,vegetarian,no budget
+658,659,0,10.37,175,7.68,65.61,13.46,94,Thai,Male,Sour,5,2,Winnipeg,firstdate,vegetarian,$40+
+659,660,2,0,72,0,79.71,8,41,Mexican,Male,Sweet,3,1,Montreal,birthday,gluten free,less than $15
+660,661,2,7.23,160,14.83,82.46,14.55,50,Spanish,Male,Sweet,4,4,Toronto,anniversary,gluten free,no budget
+661,662,2,0,132,0,77.44,13.2,33,Italian,Male,Umami,3,2,Kitchener,dinner,halal,$40+
+662,663,0,0,127,0,76.78,9.07,37,French,Male,Salty,3,3,Ottawa,birthday,halal,$40+
+663,664,1,0,84,0,60.79,10.5,6,Greek,Female,Umami,4,4,Vancouver,tourist,kosher,$40+
+664,665,1,0,103,0,73.05,20.6,92,French,Male,Spicy,4,1,Calgary,birthday,halal,$15 - $40
+665,666,0,7.12,67,7.53,87.45,11.17,97,Greek,Female,Sweet,3,2,Edmonton,dinner,gluten free,less than $15
+666,667,0,9.6,160,9.08,71.75,10.67,91,Japanese,Female,Umami,2,3,Quebec City,anniversary,vegetarian,$40+
+667,668,2,8.09,72,11.87,62.2,12,88,Thai,Female,Bitter,5,1,Toronto,firstdate,vegan,less than $15
+668,669,0,0,155,0,86.44,25.83,71,American,Female,Sour,5,2,Calgary,lunch,halal,no budget
+669,670,2,0,120,0,60.31,8.57,16,Italian,Female,Spicy,0,1,Kitchener,dinner,kosher,less than $15
+670,671,1,6.17,137,12.43,63.25,11.42,89,American,Male,Umami,2,1,Vancouver,dinner,gluten free,no budget
+671,672,2,0,154,0,75.28,10.27,5,Mexican,Male,Sour,0,3,Montreal,casual,kosher,$40+
+672,673,2,0,77,0,79.41,6.42,7,Thai,Female,Umami,4,2,Ottawa,birthday,vegan,no budget
+673,674,2,11.56,167,7.9,63.08,18.56,57,Spanish,Male,Umami,4,2,Montreal,firstdate,halal,no budget
+674,675,0,16.06,125,6.22,89.41,8.33,92,Greek,Female,Spicy,2,2,Calgary,casual,gluten free,no budget
+675,676,1,19.61,125,10.49,71.31,9.62,85,Indian,Female,Sweet,0,4,Quebec City,casual,vegetarian,$40+
+676,677,1,0,166,0,85.63,11.86,29,Thai,Female,Sour,0,3,Kitchener,birthday,gluten free,no budget
+677,678,1,0,139,0,78.83,10.69,75,Greek,Female,Bitter,5,3,Calgary,lunch,kosher,$15 - $40
+678,679,0,0,168,0,73.45,24,73,Greek,Male,Umami,1,3,Edmonton,firstdate,kosher,no budget
+679,680,2,0,93,0,86.86,9.3,1,Greek,Male,Umami,5,2,Kitchener,birthday,kosher,$15 - $40
+680,681,0,0,65,0,65.69,7.22,8,Thai,Male,Spicy,0,3,Quebec City,lunch,gluten free,$15 - $40
+681,682,0,0,76,0,63.19,5.85,96,Japanese,Female,Salty,0,4,Ottawa,casual,vegan,$15 - $40
+682,683,2,0,175,0,62.95,15.91,88,French,Male,Sour,2,4,Quebec City,firstdate,vegetarian,less than $15
+683,684,1,6.97,126,9.27,78.46,10.5,36,Thai,Male,Umami,4,4,Calgary,casual,vegetarian,$40+
+684,685,1,19.18,117,13.37,79.84,13,51,Spanish,Male,Sour,2,5,Hamilton,birthday,vegetarian,$40+
+685,686,1,0,122,0,75.76,20.33,16,Thai,Female,Spicy,1,5,Hamilton,tourist,kosher,no budget
+686,687,1,0,144,0,71.66,24,31,Thai,Female,Sour,4,2,Calgary,firstdate,halal,$40+
+687,688,1,0,107,0,85.68,8.23,76,Thai,Female,Sweet,5,3,Kitchener,birthday,vegan,$15 - $40
+688,689,2,0,79,0,81.58,6.08,28,Indian,Female,Spicy,1,1,Hamilton,anniversary,gluten free,less than $15
+689,690,0,14.23,139,7.86,63.24,17.38,5,Spanish,Male,Spicy,4,3,Ottawa,tourist,vegetarian,$40+
+690,691,0,0,112,0,84.63,10.18,5,American,Male,Salty,3,4,Calgary,anniversary,vegetarian,$40+
+691,692,0,15.28,172,7.01,75.42,12.29,71,Greek,Female,Spicy,4,4,Montreal,tourist,vegetarian,less than $15
+692,693,1,0,158,0,85.32,10.53,49,Italian,Male,Sweet,1,5,Ottawa,dinner,gluten free,$40+
+693,694,0,0,71,0,73.11,10.14,34,Japanese,Female,Salty,1,2,Kitchener,dinner,vegan,$40+
+694,695,0,0,62,0,69.6,4.77,58,Spanish,Female,Salty,5,1,Winnipeg,casual,vegan,$40+
+695,696,2,10.52,121,12.73,64.37,13.44,88,Greek,Female,Umami,1,3,Calgary,casual,vegan,no budget
+696,697,2,0,79,0,66.78,15.8,48,French,Male,Sour,1,3,Vancouver,dinner,vegetarian,$15 - $40
+697,698,2,0,126,0,82.49,8.4,39,Indian,Female,Sweet,4,4,Ottawa,birthday,vegetarian,less than $15
+698,699,0,0,101,0,62.11,16.83,99,Greek,Male,Bitter,5,5,Toronto,firstdate,vegan,no budget
+699,700,2,0,152,0,65.68,21.71,60,Thai,Male,Sour,0,1,Calgary,tourist,kosher,$15 - $40
+700,701,1,0,126,0,67.89,12.6,42,Greek,Male,Salty,2,4,Vancouver,casual,kosher,no budget
+701,702,1,0,140,0,70.99,28,85,French,Female,Umami,2,5,Montreal,firstdate,gluten free,no budget
+702,703,2,0,163,0,74.31,18.11,78,Spanish,Male,Bitter,1,3,Vancouver,birthday,kosher,less than $15
+703,704,2,0,76,0,72.91,6.91,70,Thai,Female,Sour,3,5,Winnipeg,tourist,vegan,$15 - $40
+704,705,1,0,67,0,74.47,13.4,22,French,Female,Salty,0,4,Edmonton,firstdate,kosher,less than $15
+705,706,0,0,64,0,73.31,6.4,52,Mexican,Male,Bitter,1,4,Quebec City,tourist,vegan,$15 - $40
+706,707,2,0,95,0,67.7,8.64,36,Thai,Female,Sour,0,5,Calgary,dinner,kosher,no budget
+707,708,1,0,143,0,78.63,15.89,3,Indian,Female,Sweet,2,2,Toronto,firstdate,halal,no budget
+708,709,2,10.95,92,9.76,89.46,9.2,50,Indian,Male,Bitter,0,1,Calgary,casual,halal,$40+
+709,710,0,11.51,129,10.32,88.33,11.73,30,Spanish,Male,Bitter,0,4,Kitchener,birthday,halal,less than $15
+710,711,1,2.09,151,9.87,63.02,16.78,90,Thai,Female,Salty,2,4,Edmonton,birthday,halal,$15 - $40
+711,712,0,0,119,0,74.38,23.8,79,Chinese,Male,Spicy,4,5,Edmonton,casual,gluten free,$40+
+712,713,2,7.78,89,12.59,88.13,5.93,70,Chinese,Male,Sweet,5,2,Edmonton,lunch,vegan,$15 - $40
+713,714,2,0,104,0,64.07,7.43,34,Mexican,Male,Sour,2,4,Quebec City,dinner,vegetarian,less than $15
+714,715,1,0,85,0,77.9,12.14,50,Thai,Female,Sweet,0,2,Winnipeg,birthday,kosher,no budget
+715,716,2,0,88,0,80.83,11,80,Chinese,Male,Umami,0,5,Toronto,dinner,kosher,$15 - $40
+716,717,2,19.6,87,6.2,60.7,14.5,54,Greek,Female,Sour,4,2,Toronto,lunch,halal,$15 - $40
+717,718,0,0,146,0,84.67,20.86,3,Italian,Female,Sour,3,3,Montreal,anniversary,gluten free,$40+
+718,719,0,0,169,0,75.06,24.14,16,Spanish,Female,Salty,4,5,Winnipeg,birthday,halal,$40+
+719,720,2,0,79,0,63.68,6.08,85,Mexican,Female,Spicy,2,1,Calgary,birthday,vegan,less than $15
+720,721,0,5.7,149,6.46,83.05,18.62,91,Italian,Male,Sweet,5,5,Ottawa,lunch,gluten free,$40+
+721,722,1,0,60,0,62.59,5,54,French,Female,Umami,3,4,Calgary,birthday,vegetarian,no budget
+722,723,1,8.81,147,7.87,87.32,9.8,26,Greek,Male,Sweet,5,5,Quebec City,casual,kosher,no budget
+723,724,0,1.38,115,11.74,75.35,12.78,59,French,Female,Sweet,2,4,Montreal,birthday,kosher,less than $15
+724,725,0,4.28,84,11.32,84.5,9.33,68,Spanish,Male,Salty,3,3,Edmonton,birthday,halal,$40+
+725,726,2,0,67,0,60.58,9.57,38,Italian,Male,Salty,3,4,Montreal,anniversary,halal,$40+
+726,727,0,0,126,0,60.73,9,21,Thai,Male,Bitter,4,1,Quebec City,birthday,kosher,no budget
+727,728,0,0,168,0,89.85,21,99,Chinese,Female,Salty,4,2,Winnipeg,tourist,vegan,$40+
+728,729,2,0,152,0,69.68,16.89,95,Thai,Male,Bitter,5,1,Ottawa,casual,vegan,$40+
+729,730,1,0,176,0,73.61,22,16,Thai,Female,Salty,2,4,Kitchener,casual,halal,no budget
+730,731,2,13.17,90,6.36,87.89,15,97,French,Female,Spicy,4,3,Montreal,dinner,vegan,less than $15
+731,732,0,0,142,0,66.96,17.75,23,Thai,Female,Bitter,2,2,Edmonton,casual,halal,$40+
+732,733,0,3.57,68,6.11,66.17,4.53,20,Greek,Female,Salty,0,1,Toronto,anniversary,vegetarian,less than $15
+733,734,2,0,127,0,65.17,9.77,52,Spanish,Female,Salty,4,1,Toronto,casual,vegan,less than $15
+734,735,2,0,77,0,82.51,11,46,Greek,Male,Sweet,4,1,Winnipeg,dinner,vegan,$15 - $40
+735,736,0,0,92,0,87.66,11.5,48,Chinese,Female,Bitter,2,3,Winnipeg,firstdate,gluten free,$15 - $40
+736,737,1,15.87,126,10.82,63.74,12.6,1,Japanese,Female,Umami,0,4,Montreal,lunch,halal,no budget
+737,738,1,0,139,0,79.43,17.38,56,Chinese,Male,Spicy,3,4,Ottawa,anniversary,vegetarian,less than $15
+738,739,1,0,138,0,67.67,12.55,94,Greek,Male,Spicy,3,4,Kitchener,casual,halal,no budget
+739,740,2,5.49,157,9.8,71.9,12.08,11,Thai,Female,Salty,0,3,Hamilton,anniversary,gluten free,$40+
+740,741,1,0,97,0,60.66,16.17,4,American,Male,Umami,3,1,Montreal,anniversary,gluten free,$15 - $40
+741,742,2,15.46,90,7.03,82.01,7.5,91,Mexican,Male,Umami,4,3,Vancouver,dinner,gluten free,no budget
+742,743,1,0,146,0,65.46,10.43,43,Mexican,Female,Sweet,3,1,Calgary,casual,vegan,less than $15
+743,744,1,0,158,0,72.73,26.33,42,Mexican,Female,Umami,0,5,Montreal,birthday,vegetarian,$15 - $40
+744,745,0,0,167,0,68.44,13.92,77,Greek,Male,Salty,5,3,Ottawa,anniversary,halal,$40+
+745,746,1,0,138,0,76.82,19.71,28,Mexican,Female,Umami,3,3,Toronto,dinner,vegan,$40+
+746,747,2,0,164,0,78.41,10.93,16,Indian,Female,Sweet,1,3,Montreal,anniversary,vegetarian,$40+
+747,748,2,6.57,120,11.75,71.31,10.91,78,Thai,Male,Umami,1,4,Toronto,dinner,gluten free,less than $15
+748,749,1,0,70,0,60.42,4.67,59,French,Female,Umami,5,1,Toronto,casual,halal,less than $15
+749,750,1,0,139,0,60.77,27.8,26,American,Female,Sour,3,5,Montreal,tourist,vegan,$40+
+750,751,0,0,78,0,60.06,15.6,39,Chinese,Male,Bitter,2,3,Calgary,dinner,vegan,less than $15
+751,752,1,2.49,158,8.58,68.35,14.36,61,Indian,Female,Salty,5,3,Ottawa,lunch,kosher,no budget
+752,753,1,0,132,0,69.22,10.15,63,Chinese,Male,Bitter,4,1,Calgary,birthday,kosher,less than $15
+753,754,0,15.09,164,6.92,71.47,20.5,39,Greek,Male,Spicy,3,2,Kitchener,anniversary,gluten free,$40+
+754,755,0,0,174,0,83.39,21.75,53,Greek,Male,Sour,4,2,Calgary,tourist,kosher,$40+
+755,756,1,14.8,103,12.21,68.84,20.6,77,Thai,Male,Bitter,1,4,Kitchener,firstdate,vegetarian,$15 - $40
+756,757,2,0,136,0,89.79,17,90,Thai,Female,Spicy,3,5,Ottawa,birthday,halal,$15 - $40
+757,758,1,19.7,156,10.1,86.55,31.2,64,Mexican,Male,Umami,4,3,Montreal,casual,kosher,less than $15
+758,759,1,0,84,0,88.89,7.64,20,Spanish,Male,Spicy,5,5,Toronto,tourist,vegan,no budget
+759,760,0,0,132,0,79.03,26.4,43,Greek,Female,Spicy,5,2,Montreal,birthday,vegetarian,less than $15
+760,761,1,0,60,0,67.03,7.5,53,Chinese,Female,Spicy,0,3,Calgary,anniversary,kosher,$40+
+761,762,2,0,85,0,78.85,6.54,8,Thai,Female,Salty,2,2,Toronto,lunch,halal,less than $15
+762,763,1,4.36,128,6.46,60.12,16,23,Thai,Male,Bitter,3,2,Winnipeg,tourist,vegetarian,$15 - $40
+763,764,1,3.78,79,7.45,63.68,7.18,71,French,Male,Spicy,4,4,Hamilton,casual,gluten free,$40+
+764,765,0,0,103,0,68.52,8.58,8,Indian,Male,Salty,0,5,Montreal,anniversary,vegetarian,$15 - $40
+765,766,2,0,72,0,86.46,12,85,Italian,Male,Umami,1,3,Vancouver,firstdate,gluten free,$15 - $40
+766,767,2,0,167,0,60.87,13.92,63,Italian,Female,Bitter,4,3,Montreal,firstdate,vegan,no budget
+767,768,0,11.97,73,12.01,79.03,5.62,50,Greek,Male,Bitter,4,3,Kitchener,firstdate,kosher,$40+
+768,769,2,0,174,0,75.14,19.33,45,Thai,Male,Bitter,1,2,Kitchener,birthday,vegan,$15 - $40
+769,770,1,0,116,0,83.44,14.5,35,Greek,Male,Spicy,3,5,Quebec City,firstdate,vegetarian,less than $15
+770,771,2,19.17,96,12.97,89.82,8.73,66,Indian,Female,Sour,2,5,Montreal,lunch,halal,less than $15
+771,772,1,3.84,143,11.61,69.82,14.3,2,American,Male,Umami,3,5,Toronto,tourist,vegetarian,no budget
+772,773,1,0,132,0,82.24,26.4,37,Indian,Female,Sweet,5,3,Vancouver,lunch,gluten free,less than $15
+773,774,1,4.34,180,6.73,74.77,18,53,French,Male,Bitter,5,2,Winnipeg,tourist,kosher,$40+
+774,775,1,19.54,107,7.03,71.9,17.83,46,Italian,Male,Salty,2,5,Ottawa,anniversary,halal,no budget
+775,776,2,1.63,127,10.17,74.43,21.17,26,Spanish,Female,Spicy,2,3,Quebec City,dinner,vegetarian,less than $15
+776,777,1,0,125,0,67.95,17.86,92,American,Female,Spicy,3,2,Vancouver,birthday,gluten free,less than $15
+777,778,2,0,121,0,66.75,15.12,59,Spanish,Male,Sour,4,3,Toronto,firstdate,kosher,$15 - $40
+778,779,0,0,167,0,79.46,15.18,97,Mexican,Female,Sour,0,1,Winnipeg,dinner,kosher,$40+
+779,780,0,0,102,0,84.67,9.27,16,Indian,Female,Bitter,3,4,Montreal,tourist,gluten free,less than $15
+780,781,0,0,69,0,82.11,13.8,45,Mexican,Male,Umami,2,1,Kitchener,firstdate,vegetarian,$40+
+781,782,2,0,73,0,73.88,7.3,40,Spanish,Male,Salty,3,5,Toronto,casual,kosher,$40+
+782,783,0,0,125,0,82.97,8.33,14,Thai,Female,Bitter,2,4,Vancouver,tourist,halal,$40+
+783,784,0,0,170,0,75.83,34,21,Greek,Male,Salty,5,5,Calgary,dinner,vegan,$40+
+784,785,1,17.12,105,7.15,62.68,11.67,80,Indian,Male,Salty,2,3,Hamilton,dinner,vegetarian,$15 - $40
+785,786,2,0,120,0,87.11,20,28,Indian,Male,Salty,3,2,Vancouver,birthday,vegetarian,no budget
+786,787,2,0,170,0,87.34,34,95,French,Female,Sour,0,3,Winnipeg,tourist,vegan,no budget
+787,788,2,0,162,0,67.4,10.8,27,Thai,Female,Spicy,3,4,Edmonton,firstdate,kosher,less than $15
+788,789,2,0,91,0,68.65,8.27,65,Thai,Male,Bitter,1,4,Vancouver,tourist,gluten free,$40+
+789,790,0,0,65,0,78.93,9.29,1,Thai,Female,Bitter,0,3,Winnipeg,casual,gluten free,no budget
+790,791,0,0,143,0,61.73,11.92,91,Thai,Female,Sweet,3,1,Toronto,birthday,gluten free,$40+
+791,792,1,0,90,0,65.46,15,89,Greek,Male,Sour,1,4,Quebec City,anniversary,vegetarian,less than $15
+792,793,0,12.92,74,12.46,61.09,7.4,97,Italian,Male,Umami,5,1,Montreal,lunch,gluten free,$40+
+793,794,2,0,169,0,68.6,28.17,40,Mexican,Female,Sweet,5,3,Montreal,anniversary,kosher,$40+
+794,795,0,3.44,112,7.82,65.29,16,80,Indian,Male,Salty,4,1,Montreal,birthday,vegetarian,less than $15
+795,796,2,0,94,0,72.78,15.67,87,Italian,Male,Salty,1,1,Calgary,firstdate,halal,no budget
+796,797,2,3.27,136,11.65,82.79,13.6,85,French,Male,Salty,5,3,Hamilton,lunch,vegetarian,no budget
+797,798,2,0,167,0,62.99,27.83,100,Thai,Female,Umami,4,5,Quebec City,firstdate,kosher,no budget
+798,799,0,0,95,0,71.83,7.31,90,American,Female,Spicy,1,5,Montreal,casual,gluten free,no budget
+799,800,0,0,149,0,81.61,12.42,79,Japanese,Female,Bitter,4,3,Toronto,firstdate,halal,$15 - $40
+800,801,1,0,94,0,66.93,9.4,34,French,Female,Salty,4,4,Calgary,lunch,kosher,$40+
+801,802,2,0,83,0,71.94,7.55,99,Chinese,Female,Spicy,4,2,Edmonton,tourist,gluten free,$40+
+802,803,2,3.89,87,7.78,71.2,7.25,34,Italian,Female,Sweet,4,1,Hamilton,lunch,vegan,no budget
+803,804,2,15.76,156,5.25,79.88,12,11,Mexican,Female,Spicy,0,5,Vancouver,lunch,vegan,less than $15
+804,805,1,5.47,125,9.44,62.34,9.62,71,Mexican,Female,Umami,4,5,Edmonton,firstdate,vegetarian,less than $15
+805,806,2,16.79,82,6.66,65.56,13.67,33,Spanish,Female,Spicy,4,1,Montreal,tourist,halal,$15 - $40
+806,807,0,0,121,0,84.72,13.44,60,Italian,Male,Sour,1,3,Vancouver,firstdate,kosher,$40+
+807,808,0,0,119,0,83.74,11.9,89,Chinese,Male,Salty,3,1,Edmonton,dinner,vegan,$40+
+808,809,2,0,112,0,69,8.62,83,French,Female,Salty,1,2,Vancouver,casual,gluten free,$40+
+809,810,2,4.37,136,8.08,72.19,15.11,15,Chinese,Male,Salty,0,2,Ottawa,dinner,vegetarian,less than $15
+810,811,2,0,64,0,62.14,4.92,19,Indian,Male,Salty,2,5,Quebec City,firstdate,vegetarian,no budget
+811,812,2,10.64,168,9.58,87.82,28,25,Thai,Male,Umami,2,1,Montreal,firstdate,halal,$40+
+812,813,2,0,134,0,69.89,11.17,74,Thai,Male,Bitter,4,5,Hamilton,dinner,vegan,$15 - $40
+813,814,0,0,69,0,63.87,6.27,61,Thai,Male,Sweet,5,4,Hamilton,tourist,vegetarian,no budget
+814,815,1,0,93,0,76.19,10.33,39,Chinese,Male,Spicy,2,4,Montreal,dinner,kosher,$15 - $40
+815,816,0,16.77,150,13.81,66.98,30,76,Japanese,Male,Sour,3,2,Kitchener,birthday,kosher,$15 - $40
+816,817,1,4.26,84,6.71,86.77,7,66,Italian,Male,Bitter,1,4,Ottawa,casual,vegan,less than $15
+817,818,0,0,85,0,80.59,12.14,41,Greek,Male,Bitter,3,3,Hamilton,birthday,gluten free,less than $15
+818,819,2,0,171,0,67.42,21.38,39,Indian,Female,Sour,4,5,Edmonton,anniversary,halal,$40+
+819,820,0,0,141,0,70.37,12.82,98,Spanish,Female,Umami,2,5,Quebec City,lunch,halal,no budget
+820,821,2,0.47,168,6.61,66.95,24,66,Greek,Male,Bitter,2,3,Kitchener,dinner,vegan,$15 - $40
+821,822,0,0,124,0,66.28,10.33,91,Chinese,Female,Bitter,0,2,Hamilton,firstdate,halal,$40+
+822,823,0,9.46,134,10.21,83.26,8.93,62,Thai,Male,Umami,3,3,Edmonton,anniversary,gluten free,no budget
+823,824,2,17.72,160,13.72,70.47,14.55,46,American,Male,Umami,3,1,Montreal,lunch,gluten free,less than $15
+824,825,0,0,87,0,83.88,7.91,87,Mexican,Male,Umami,1,3,Vancouver,dinner,vegetarian,$15 - $40
+825,826,0,0,120,0,72.55,10,26,French,Female,Spicy,3,2,Calgary,firstdate,vegan,no budget
+826,827,0,6.81,82,13.89,64.53,9.11,95,Spanish,Male,Bitter,1,4,Calgary,tourist,vegan,$15 - $40
+827,828,1,0,125,0,88.2,11.36,83,Thai,Male,Salty,5,5,Calgary,birthday,kosher,no budget
+828,829,2,0,171,0,89.54,34.2,44,Indian,Female,Sweet,5,1,Montreal,casual,vegetarian,less than $15
+829,830,1,15.67,175,14.96,64.16,19.44,57,Japanese,Female,Salty,4,2,Ottawa,firstdate,kosher,no budget
+830,831,1,0,77,0,79.27,12.83,65,Chinese,Female,Salty,1,3,Montreal,lunch,vegetarian,$40+
+831,832,1,0,65,0,73.66,13,82,Italian,Male,Salty,1,2,Calgary,tourist,vegetarian,less than $15
+832,833,2,0,149,0,82.2,29.8,58,American,Female,Bitter,1,4,Kitchener,lunch,gluten free,less than $15
+833,834,1,0,131,0,68.83,10.92,58,Mexican,Female,Sour,3,4,Hamilton,lunch,vegetarian,$40+
+834,835,2,5.24,139,10.32,72.35,9.93,33,American,Female,Salty,5,5,Toronto,lunch,gluten free,$15 - $40
+835,836,1,0,71,0,76.15,4.73,12,American,Male,Bitter,0,4,Calgary,anniversary,halal,$15 - $40
+836,837,1,0,169,0,77.37,12.07,67,Chinese,Male,Sour,4,4,Edmonton,dinner,vegetarian,$40+
+837,838,0,0,72,0,79.8,10.29,70,Thai,Female,Spicy,5,4,Winnipeg,firstdate,kosher,no budget
+838,839,2,0,146,0,86.55,11.23,52,Italian,Male,Sweet,1,3,Calgary,firstdate,gluten free,$40+
+839,840,2,0,63,0,75.87,9,87,French,Female,Sour,5,3,Montreal,casual,halal,$40+
+840,841,2,0,158,0,77.28,15.8,44,American,Male,Spicy,1,4,Edmonton,dinner,gluten free,less than $15
+841,842,1,0,123,0,78.6,24.6,7,Japanese,Female,Sour,2,3,Hamilton,tourist,kosher,$40+
+842,843,1,0,68,0,79.94,6.18,18,Indian,Male,Bitter,2,2,Toronto,tourist,kosher,less than $15
+843,844,0,0.42,169,8.06,67.25,16.9,62,Thai,Female,Sweet,4,3,Quebec City,tourist,halal,less than $15
+844,845,1,0,120,0,87.95,10,1,American,Female,Salty,5,1,Toronto,birthday,halal,$40+
+845,846,2,0,64,0,65.92,4.27,41,Mexican,Male,Sour,5,4,Ottawa,birthday,halal,less than $15
+846,847,2,0,155,0,71.4,19.38,67,Mexican,Male,Umami,0,2,Calgary,firstdate,kosher,less than $15
+847,848,0,12.26,140,10.03,80.2,14,23,American,Female,Salty,1,3,Calgary,tourist,vegan,no budget
+848,849,2,0,95,0,64.34,9.5,55,Chinese,Male,Spicy,4,2,Kitchener,firstdate,gluten free,$15 - $40
+849,850,1,0,110,0,68.97,7.33,22,Indian,Female,Umami,1,2,Toronto,dinner,vegan,less than $15
+850,851,0,0,106,0,86.18,11.78,14,Italian,Male,Sweet,2,2,Ottawa,casual,vegan,$40+
+851,852,0,5.17,105,5.51,83.65,8.75,99,Thai,Female,Sour,2,3,Quebec City,anniversary,kosher,less than $15
+852,853,0,14.95,88,12.25,68.69,17.6,29,Spanish,Female,Sour,3,3,Montreal,lunch,gluten free,less than $15
+853,854,2,10.16,123,14.82,68.97,13.67,54,Chinese,Female,Spicy,5,3,Hamilton,birthday,gluten free,no budget
+854,855,1,0,134,0,75.85,8.93,27,Japanese,Male,Sweet,1,2,Montreal,casual,vegan,no budget
+855,856,2,0,112,0,72.91,9.33,75,Thai,Female,Bitter,0,5,Hamilton,tourist,vegan,$40+
+856,857,0,0,110,0,63.77,7.86,90,Indian,Male,Salty,3,5,Kitchener,tourist,vegan,$40+
+857,858,0,0,160,0,83.45,14.55,52,Greek,Female,Umami,4,2,Montreal,anniversary,gluten free,no budget
+858,859,0,0,151,0,76.74,30.2,7,Italian,Male,Bitter,3,5,Toronto,anniversary,vegetarian,$40+
+859,860,1,4.08,123,6.14,74.89,20.5,34,Chinese,Female,Sour,5,3,Toronto,anniversary,vegetarian,$15 - $40
+860,861,0,0,179,0,89.71,16.27,84,Italian,Male,Umami,1,1,Kitchener,anniversary,kosher,$40+
+861,862,2,8.6,90,14.28,80.4,10,79,American,Female,Bitter,2,5,Edmonton,anniversary,halal,$15 - $40
+862,863,1,0,94,0,78.73,6.27,99,American,Female,Umami,5,4,Edmonton,lunch,vegan,no budget
+863,864,0,7.43,121,12.35,82.02,17.29,95,Spanish,Male,Sweet,3,3,Montreal,casual,vegan,less than $15
+864,865,0,0,161,0,71.13,12.38,59,Indian,Male,Spicy,4,2,Ottawa,dinner,halal,less than $15
+865,866,1,0,165,0,63.43,11.79,69,Thai,Male,Spicy,1,2,Toronto,firstdate,gluten free,$40+
+866,867,2,0,123,0,83.78,12.3,90,Greek,Male,Umami,5,1,Toronto,dinner,gluten free,$40+
+867,868,2,0,97,0,68.74,16.17,92,Japanese,Male,Umami,2,1,Winnipeg,lunch,vegetarian,$15 - $40
+868,869,2,0,164,0,88.18,14.91,3,Chinese,Female,Salty,2,2,Edmonton,firstdate,kosher,$40+
+869,870,0,0,171,0,68,34.2,32,Indian,Female,Umami,0,5,Calgary,birthday,halal,no budget
+870,871,2,0,180,0,83.4,30,53,Thai,Male,Spicy,1,5,Kitchener,firstdate,kosher,$15 - $40
+871,872,0,0,105,0,71.32,7.5,39,Chinese,Male,Spicy,2,2,Montreal,tourist,vegetarian,$15 - $40
+872,873,2,0,154,0,60.24,14,77,Japanese,Male,Salty,5,3,Montreal,firstdate,vegan,$40+
+873,874,2,19.75,88,9.8,77.56,9.78,57,Italian,Male,Salty,5,4,Ottawa,birthday,kosher,less than $15
+874,875,0,7.74,118,5.04,73.1,19.67,63,Spanish,Male,Umami,3,3,Montreal,lunch,vegetarian,no budget
+875,876,2,0,84,0,83.05,9.33,36,Greek,Male,Salty,3,4,Ottawa,anniversary,vegetarian,no budget
+876,877,2,0,109,0,88.57,18.17,60,French,Female,Bitter,2,3,Montreal,anniversary,gluten free,$40+
+877,878,2,0,121,0,80.93,15.12,47,Chinese,Male,Sweet,4,3,Calgary,dinner,vegetarian,no budget
+878,879,0,0,116,0,76.81,7.73,54,Italian,Male,Sweet,3,2,Montreal,casual,gluten free,$40+
+879,880,2,10.65,91,9.87,71.64,11.38,14,Mexican,Female,Bitter,4,5,Montreal,casual,kosher,no budget
+880,881,0,0,66,0,81.15,11,32,Thai,Female,Salty,4,2,Vancouver,birthday,gluten free,less than $15
+881,882,2,12.89,123,13.41,84.05,9.46,46,Thai,Male,Sweet,2,1,Montreal,birthday,vegan,no budget
+882,883,1,0,143,0,64.95,15.89,31,Greek,Female,Salty,4,5,Calgary,tourist,vegan,$40+
+883,884,1,0,65,0,73.38,4.64,82,Italian,Female,Sweet,5,5,Calgary,anniversary,vegetarian,$15 - $40
+884,885,2,0,106,0,69.17,11.78,35,Japanese,Female,Bitter,1,3,Kitchener,dinner,halal,no budget
+885,886,2,2.29,61,7.51,89.54,6.1,71,Greek,Male,Sour,4,3,Toronto,lunch,gluten free,$15 - $40
+886,887,0,0,111,0,86.26,22.2,83,Greek,Male,Bitter,5,5,Calgary,dinner,halal,$40+
+887,888,2,0,74,0,75.67,8.22,60,American,Female,Sour,0,5,Hamilton,tourist,vegetarian,$15 - $40
+888,889,0,0,143,0,62.04,28.6,79,Indian,Male,Sour,0,2,Winnipeg,dinner,kosher,less than $15
+889,890,1,0,165,0,87.26,12.69,37,Japanese,Male,Bitter,5,5,Kitchener,casual,kosher,no budget
+890,891,1,0.88,64,8.37,87.88,7.11,72,Japanese,Male,Sour,2,5,Edmonton,casual,kosher,$15 - $40
+891,892,2,0,170,0,61.89,15.45,45,Mexican,Male,Sour,5,5,Quebec City,firstdate,halal,less than $15
+892,893,1,0,60,0,83.29,6,60,Japanese,Female,Salty,2,1,Calgary,firstdate,vegan,$15 - $40
+893,894,1,0,147,0,63.51,16.33,39,Indian,Male,Salty,2,5,Ottawa,lunch,gluten free,less than $15
+894,895,2,0,110,0,77.66,7.86,88,Greek,Female,Spicy,0,2,Calgary,dinner,vegetarian,$15 - $40
+895,896,1,0,124,0,75,8.86,8,French,Male,Sweet,4,1,Hamilton,casual,halal,$15 - $40
+896,897,0,0,150,0,68.91,10,83,French,Female,Salty,4,5,Winnipeg,lunch,vegetarian,$40+
+897,898,1,0,124,0,82.02,10.33,34,Spanish,Male,Umami,3,2,Ottawa,lunch,gluten free,$40+
+898,899,2,0,108,0,72.54,12,29,Italian,Female,Sweet,3,5,Vancouver,anniversary,gluten free,less than $15
+899,900,0,0,143,0,60.09,11.92,65,Thai,Female,Sour,3,5,Toronto,lunch,gluten free,less than $15
+900,901,0,8.17,93,12.27,61.08,8.45,52,French,Male,Sour,2,3,Ottawa,casual,halal,$40+
+901,902,0,0,82,0,64.83,6.83,95,Spanish,Female,Umami,2,3,Montreal,tourist,gluten free,$40+
+902,903,2,0,63,0,84.55,12.6,70,Spanish,Male,Sour,1,5,Kitchener,dinner,vegan,less than $15
+903,904,2,0,145,0,80.35,11.15,71,Spanish,Male,Sour,0,1,Kitchener,firstdate,halal,$40+
+904,905,2,0,120,0,61.5,8.57,83,Italian,Male,Umami,3,2,Winnipeg,tourist,kosher,less than $15
+905,906,1,8.5,172,9.78,60.39,11.47,29,Italian,Female,Sour,0,3,Quebec City,casual,kosher,$15 - $40
+906,907,0,0,78,0,86.93,8.67,77,Indian,Female,Umami,5,3,Toronto,firstdate,halal,no budget
+907,908,1,0,95,0,82.81,11.88,70,Chinese,Male,Salty,0,4,Winnipeg,lunch,vegetarian,no budget
+908,909,1,1.72,135,5.35,79.66,10.38,3,American,Female,Bitter,0,5,Montreal,firstdate,gluten free,less than $15
+909,910,0,8.29,142,6.5,69.97,17.75,60,Mexican,Male,Salty,3,2,Hamilton,birthday,vegan,no budget
+910,911,1,0,180,0,74.55,13.85,15,Indian,Female,Spicy,3,3,Toronto,firstdate,kosher,less than $15
+911,912,0,1.31,93,11.27,83.37,7.15,100,French,Male,Spicy,3,2,Montreal,lunch,gluten free,$40+
+912,913,1,0,125,0,75.24,12.5,73,Greek,Female,Spicy,1,2,Hamilton,tourist,gluten free,$40+
+913,914,1,0,82,0,65.05,11.71,21,Mexican,Female,Sour,3,4,Ottawa,tourist,halal,less than $15
+914,915,2,0,98,0,61.69,9.8,82,Mexican,Male,Sweet,3,4,Edmonton,casual,halal,no budget
+915,916,2,0,62,0,67.7,12.4,89,Greek,Female,Sweet,4,3,Toronto,firstdate,halal,no budget
+916,917,2,15.95,90,12.76,61.73,8.18,79,Indian,Male,Umami,0,4,Calgary,casual,halal,no budget
+917,918,1,0,76,0,64.46,12.67,40,Mexican,Male,Sour,3,1,Kitchener,lunch,vegan,$15 - $40
+918,919,2,0,142,0,77.38,10.14,61,Thai,Female,Salty,5,3,Toronto,dinner,vegetarian,$15 - $40
+919,920,2,0,111,0,65.03,15.86,2,Mexican,Female,Bitter,5,2,Montreal,tourist,vegetarian,no budget
+920,921,2,5.35,141,5.67,78.46,11.75,45,Indian,Male,Bitter,5,5,Toronto,casual,halal,$40+
+921,922,0,0,118,0,60.45,7.87,37,Spanish,Male,Sour,0,5,Toronto,dinner,halal,$40+
+922,923,1,0,88,0,77.56,7.33,64,Indian,Female,Sweet,5,4,Kitchener,firstdate,vegan,$40+
+923,924,0,16.11,172,7.56,62.5,28.67,8,Indian,Male,Bitter,2,5,Ottawa,birthday,halal,no budget
+924,925,1,0,96,0,75.25,9.6,70,Greek,Male,Sweet,3,5,Vancouver,tourist,vegan,less than $15
+925,926,1,10.51,160,6.5,66.34,17.78,19,French,Male,Spicy,4,3,Montreal,anniversary,vegetarian,$40+
+926,927,1,0,116,0,63.09,8.29,89,Italian,Male,Sour,5,3,Montreal,casual,gluten free,less than $15
+927,928,2,0,75,0,79.82,12.5,57,Italian,Male,Umami,5,2,Hamilton,lunch,vegan,less than $15
+928,929,0,0,106,0,66.63,13.25,50,Chinese,Male,Spicy,3,4,Vancouver,firstdate,halal,$40+
+929,930,2,12.31,173,6.59,85.92,17.3,68,Mexican,Female,Spicy,5,3,Vancouver,firstdate,gluten free,$15 - $40
+930,931,2,0,104,0,71.59,17.33,93,Mexican,Male,Umami,3,2,Calgary,tourist,vegetarian,less than $15
+931,932,2,0,148,0,64.1,13.45,66,Mexican,Male,Spicy,3,4,Toronto,birthday,kosher,less than $15
+932,933,0,0,101,0,63.11,10.1,67,Greek,Male,Sweet,4,5,Toronto,tourist,gluten free,less than $15
+933,934,2,0.74,174,8.35,77.23,24.86,88,Spanish,Male,Salty,4,1,Ottawa,casual,vegan,no budget
+934,935,2,0,69,0,87.08,8.62,2,Indian,Female,Salty,3,5,Winnipeg,dinner,gluten free,less than $15
+935,936,2,16.84,157,6.86,81.1,12.08,74,French,Female,Umami,0,1,Quebec City,casual,vegetarian,less than $15
+936,937,2,11.61,133,6.34,63.26,12.09,45,Thai,Female,Bitter,0,5,Montreal,firstdate,gluten free,less than $15
+937,938,2,0,81,0,85.24,13.5,77,Mexican,Male,Umami,2,4,Edmonton,firstdate,gluten free,less than $15
+938,939,0,1.06,139,10.37,88.01,9.93,79,Japanese,Female,Salty,0,4,Vancouver,lunch,vegan,no budget
+939,940,0,0,65,0,63.48,7.22,47,Italian,Male,Sweet,2,4,Ottawa,lunch,gluten free,$15 - $40
+940,941,1,0,101,0,68.9,6.73,18,Japanese,Male,Bitter,1,1,Calgary,tourist,kosher,$40+
+941,942,2,0,138,0,88.72,10.62,81,American,Male,Sweet,2,1,Edmonton,casual,kosher,$15 - $40
+942,943,2,0,138,0,68.11,17.25,26,Mexican,Male,Bitter,0,2,Toronto,tourist,gluten free,$15 - $40
+943,944,1,0,176,0,83.76,13.54,12,Thai,Male,Bitter,2,1,Vancouver,lunch,vegan,no budget
+944,945,2,0,167,0,82.86,20.88,25,Spanish,Female,Spicy,5,1,Quebec City,tourist,kosher,no budget
+945,946,0,0,157,0,62.59,14.27,64,Greek,Female,Spicy,2,2,Winnipeg,firstdate,kosher,$40+
+946,947,0,0,165,0,87.88,16.5,15,American,Female,Umami,5,1,Montreal,dinner,vegan,no budget
+947,948,2,0,112,0,65.86,7.47,18,French,Male,Sweet,4,1,Winnipeg,casual,kosher,no budget
+948,949,0,0,137,0,82.37,27.4,60,Indian,Male,Salty,1,3,Kitchener,dinner,gluten free,less than $15
+949,950,1,0,135,0,80.91,15,72,Greek,Male,Bitter,5,2,Edmonton,lunch,vegetarian,$15 - $40
+950,951,1,11.56,170,10.42,71.81,17,40,Thai,Female,Umami,4,1,Calgary,firstdate,vegetarian,$15 - $40
+951,952,2,0,74,0,83.72,8.22,98,Italian,Male,Sweet,3,3,Quebec City,anniversary,halal,less than $15
+952,953,2,8.44,106,11.05,72.19,15.14,54,Italian,Female,Sour,3,5,Hamilton,birthday,halal,less than $15
+953,954,1,0,140,0,66.23,10,81,Japanese,Male,Umami,2,2,Ottawa,casual,halal,$40+
+954,955,0,0,61,0,89.68,5.08,64,Greek,Female,Umami,5,5,Kitchener,anniversary,vegan,less than $15
+955,956,0,0,146,0,68.41,18.25,33,Italian,Male,Spicy,3,4,Calgary,birthday,vegetarian,less than $15
+956,957,1,0,87,0,65.82,17.4,48,Italian,Female,Spicy,1,1,Quebec City,casual,vegan,no budget
+957,958,0,3.21,62,11.17,85.43,5.64,23,Italian,Female,Bitter,1,4,Edmonton,firstdate,gluten free,$15 - $40
+958,959,1,0,110,0,70.7,22,75,Indian,Female,Umami,4,5,Toronto,lunch,vegetarian,$40+
+959,960,0,0,135,0,80.65,9.64,41,Mexican,Male,Spicy,2,5,Vancouver,lunch,vegetarian,$15 - $40
+960,961,2,0,84,0,75.58,7,8,Indian,Male,Sour,1,5,Hamilton,tourist,vegan,$40+
+961,962,0,0,113,0,89.01,8.69,49,Italian,Female,Sweet,3,1,Quebec City,birthday,vegan,$40+
+962,963,0,7.35,165,13.46,83.47,11.79,41,Japanese,Male,Umami,1,4,Winnipeg,lunch,gluten free,no budget
+963,964,0,0,139,0,74.93,9.93,48,Spanish,Female,Salty,3,5,Hamilton,tourist,vegetarian,$40+
+964,965,0,0,76,0,60.54,5.43,23,Thai,Male,Spicy,2,1,Ottawa,anniversary,kosher,$15 - $40
+965,966,0,0,175,0,71.75,17.5,29,Spanish,Male,Salty,1,5,Winnipeg,birthday,kosher,no budget
+966,967,0,0,98,0,84.88,12.25,17,French,Male,Sweet,0,1,Quebec City,dinner,kosher,less than $15
+967,968,0,0,113,0,66.23,11.3,78,Japanese,Female,Bitter,1,4,Winnipeg,firstdate,vegetarian,less than $15
+968,969,1,0,179,0,70.31,17.9,59,French,Male,Spicy,2,2,Toronto,firstdate,vegetarian,less than $15
+969,970,2,0,174,0,78.03,13.38,40,American,Male,Sweet,3,2,Toronto,lunch,gluten free,no budget
+970,971,0,0,151,0,71.36,12.58,5,Spanish,Female,Salty,2,1,Hamilton,firstdate,kosher,$15 - $40
+971,972,0,0,72,0,81.81,5.54,28,Chinese,Male,Sweet,3,1,Montreal,firstdate,halal,$15 - $40
+972,973,0,0,121,0,62.41,9.31,20,Thai,Female,Umami,4,5,Ottawa,birthday,gluten free,no budget
+973,974,2,19.87,88,12.09,67.54,11,49,Indian,Female,Spicy,0,4,Hamilton,lunch,vegan,no budget
+974,975,1,0,133,0,88.61,11.08,33,Indian,Male,Sweet,3,5,Montreal,firstdate,vegetarian,$15 - $40
+975,976,2,16.36,70,5.09,63.65,5,60,Chinese,Female,Umami,2,1,Toronto,birthday,kosher,$40+
+976,977,2,1.24,133,14.18,65.75,19,98,Indian,Male,Sour,4,1,Edmonton,birthday,halal,no budget
+977,978,0,0,61,0,79.62,8.71,95,Indian,Female,Umami,3,5,Edmonton,birthday,vegan,no budget
+978,979,0,0,173,0,60.12,28.83,15,Chinese,Female,Sweet,4,5,Kitchener,dinner,kosher,$40+
+979,980,2,0,109,0,89.15,9.91,4,Greek,Female,Bitter,3,3,Kitchener,casual,vegetarian,less than $15
+980,981,1,0,60,0,69.45,4.29,30,American,Male,Bitter,2,3,Winnipeg,dinner,vegan,$40+
+981,982,0,16.3,129,5.07,72.13,21.5,7,Indian,Female,Umami,5,1,Toronto,lunch,vegetarian,no budget
+982,983,1,0,88,0,78.43,6.77,56,Mexican,Female,Sour,2,3,Toronto,firstdate,vegan,no budget
+983,984,0,5.48,150,7.79,84.26,16.67,10,Spanish,Female,Salty,3,5,Vancouver,firstdate,gluten free,no budget
+984,985,2,0,124,0,77.92,20.67,51,Mexican,Male,Spicy,1,1,Vancouver,casual,gluten free,$15 - $40
+985,986,2,15.83,84,13.67,64.68,14,6,Mexican,Male,Sweet,4,2,Calgary,anniversary,vegetarian,$40+
+986,987,2,0,150,0,81.51,13.64,18,Indian,Male,Sweet,1,3,Toronto,firstdate,halal,no budget
+987,988,1,18.75,95,10.72,64.42,9.5,14,Japanese,Male,Umami,0,2,Quebec City,birthday,gluten free,less than $15
+988,989,0,0,120,0,86.39,9.23,34,Mexican,Male,Bitter,5,4,Winnipeg,birthday,vegan,$15 - $40
+989,990,1,5.41,108,11.27,72.09,7.71,75,Chinese,Male,Salty,1,3,Toronto,tourist,kosher,less than $15
+990,991,0,17.68,105,14.39,86.29,8.08,62,Greek,Female,Salty,2,5,Ottawa,anniversary,gluten free,less than $15
+991,992,2,0,84,0,61.1,12,66,Mexican,Male,Bitter,1,5,Vancouver,lunch,gluten free,less than $15
+992,993,1,0,95,0,66.93,6.33,48,American,Female,Sour,4,1,Toronto,dinner,kosher,less than $15
+993,994,2,0,117,0,76.47,9.75,51,American,Male,Umami,1,5,Quebec City,casual,halal,no budget
+994,995,1,8.98,152,10.49,89.26,10.86,28,Thai,Male,Bitter,5,4,Toronto,anniversary,vegan,$40+
+995,996,1,0,90,0,79.24,6.43,67,Spanish,Male,Bitter,2,1,Quebec City,lunch,kosher,$40+
+996,997,1,5.03,62,8.51,86.55,6.2,2,Indian,Male,Umami,2,5,Montreal,dinner,gluten free,no budget
+997,998,2,0,148,0,70.34,11.38,92,Thai,Male,Bitter,2,1,Montreal,lunch,kosher,no budget
+998,999,2,0,180,0,89.23,13.85,62,Indian,Male,Sour,4,3,Montreal,firstdate,vegetarian,no budget
+999,1000,0,2.41,89,10.17,62.4,8.9,61,Thai,Female,Salty,4,5,Quebec City,anniversary,halal,no budget
