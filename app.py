@@ -48,7 +48,7 @@ def train_model(df):
     X = df[features]
     y = df[target]
 
-    categorical_features = ["user_cuisine", "sex", "taste"]
+    categorical_features = ["user_cuisine", "gender", "taste", "occasion", "place","dietary_preferences", "budget"]
 
     preprocessor = ColumnTransformer(transformers=[
         ("cat", OneHotEncoder(handle_unknown="ignore"), categorical_features),
@@ -78,7 +78,8 @@ st.write(df.head())
 st.write("### Summary Statistics:")
 st.write(df.describe())
 st.write("### Group by Model_Used and calculate the mean of Conversion_Rate(%)")
-st.write(df.groupby("Model_Used").agg({'sex': 'count',  'user_age': 'mean', 'user_cuisine': 'count', 'user_cuisine':'count', 'taste': 'count', 'Conversion_Rate (%)': 'mean', 'Likes': 'count' }))
+st.write(df.groupby("Model_Used").agg({'gender': 'count',  'user_age': 'mean', 'occasion': 'count', 'user_cuisine':'count', 'taste': 'count', 'Conversion_Rate (%)': 'mean', 'Likes': 'count', 'rating': 'count', 'place': 'count', 'dietary_preferences':'count', 
+                                       'budget': 'count' }))
 conversion_rate_summary = df.groupby("Model_Used")['Conversion_Rate (%)'].mean()
 
 # Find the model with the maximum conversion rate
@@ -97,12 +98,12 @@ st.header("🧑 ML Model Prediction for a New User")
 with st.form("user_form"):
     user_age = st.slider("User Age", 1, 100, 25)
     user_cuisine = st.selectbox("Preferred Cuisine", df["user_cuisine"].unique())
-    sex = st.radio("Sex", df["sex"].unique())
+    sex = st.radio("gender", df["gender"].unique())
     taste = st.selectbox("Taste Preference", df["taste"].unique())
-    likes = st.number_input("Likes", min_value=0, value=10)
-    dislikes = st.number_input("Dislikes", min_value=0, value=2)
+    likes = st.number_input("likes", min_value=0, value=5)
+    rating = st.number_input("rating", min_value=1, value=5)
     time_spent = st.slider("Time Spent (min)", 0, 120, 30)
-    conversion_rate = st.slider("Conversion Rate (%)", 0, 100, 5)
+    #conversion_rate = st.slider("Conversion Rate (%)", 0, 100, 5)
 
     submitted = st.form_submit_button("Predict Model")
 
