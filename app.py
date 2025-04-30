@@ -57,7 +57,7 @@ def train_model(df):
         "user_cuisine", "gender", "taste", "likes", "rating", "Time_Spent (min)",
         "Conversion_Rate (%)", "occasion", "place", "dietary_preferences", "budget"
     ] """
-features = ["user_cuisine", "taste", "Time_Spent (min)", "occasion", "place", "dietary_preferences", "budget"] 
+    features = ["user_cuisine", "taste", "Time_Spent (min)", "occasion", "place", "dietary_preferences", "budget"] 
     target = "Model_Used"
 
     X = df[features]
