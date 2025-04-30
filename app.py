@@ -12,7 +12,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 import os
 
-st.set_page_config(page_title="ML Classification Model Prediction", layout="centered")
+st.set_page_config(page_title="ML Classification Model Prediction", layout="centered")   
 st.title("ML Classification Model Prediction")          
 
 # --- Clear cache ---
