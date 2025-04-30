@@ -34,7 +34,7 @@ Welcome to the **Recommendation Model Predictor**! This app helps predict the be
 # --- Load or train model ---
 @st.cache_data
 def load_data():
-    return pd.read_csv("recommendation_model_updated_v5.csv")     
+    return pd.read_csv("recommendation_model_updated_v5.csv")          
     
 
 @st.cache_resource
