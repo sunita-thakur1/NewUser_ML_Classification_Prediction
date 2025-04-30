@@ -25,12 +25,12 @@ st.markdown("""
 Welcome to the **Recommendation Model Predictor**! This app helps predict the best recommendation model for users based on their preferences and behavior.
 
 ### Key Features:
-- **Interactive User Input**: Users can input personal details (e.g., cuisine preference, taste, etc.) to get a model recommendation.
+- **Interactive User Input**: Users can input personal details to get a model recommendation.
 - **Data Upload**: Upload your own dataset (CSV required).
-- **Model Prediction**: A trained Random Forest Classifier predicts the best recommendation model based on the user's input.
-- **Feature Importance**: Visual display of the top 10 most important features influencing the model's recommendations.
-- **Simulated User Predictions**: Predictions for sample users are displayed to demonstrate the model's functionality.
-- **Download Results**: Users can download simulated predictions in CSV format for further analysis.
+- **Model Prediction**: A trained Random Forest Classifier predicts the best recommendation model.
+- **Feature Importance**: Visual display of important features.
+- **Simulated Predictions**: See example predictions.
+- **Download Results**: Export prediction results in CSV format.
 """)
 
 # --- File Upload Section ---
@@ -49,22 +49,34 @@ else:
     st.warning("⚠️ Please upload a CSV file to continue.")
     st.stop()
 
+# --- Display Dataset ---
+st.write("### Preview of Data:")
+st.write(df.head())
+st.write("### Summary Statistics:")
+st.write(df.describe())
+
+# --- Feature Selection ---
+st.subheader("🔧 Select Model Configuration")
+
+columns = df.columns.tolist()
+
+features = st.multiselect("Select Feature Columns", options=columns, default=[
+    "user_cuisine", "taste", "Time_Spent (min)", "occasion", "place", "dietary_preferences", "budget"
+])
+
+target = st.selectbox("Select Target Column", options=columns, index=columns.index("Model_Used") if "Model_Used" in columns else 0)
+
+categorical_features = st.multiselect(
+    "Select Categorical Features (subset of features)", 
+    options=features,
+    default=[col for col in features if df[col].dtype == 'object']
+)
+
 # --- Train Model ---
 @st.cache_resource
-def train_model(df):
-    features = [
-        "user_cuisine", "taste", "Time_Spent (min)", 
-        "occasion", "place", "dietary_preferences", "budget"
-    ]
-    target = "Model_Used"
-
+def train_model(df, features, target, categorical_features):
     X = df[features]
     y = df[target]
-
-    categorical_features = [
-        "user_cuisine", "taste", "occasion", 
-        "place", "dietary_preferences", "budget"
-    ]
 
     preprocessor = ColumnTransformer(transformers=[
         ("cat", OneHotEncoder(handle_unknown="ignore"), categorical_features),
@@ -86,60 +98,47 @@ def train_model(df):
 
     return clf, acc, report
 
-# --- Display Dataset Info ---
-st.write("### Preview of Data:")
-st.write(df.head())
-st.write("### Summary Statistics:")
-st.write(df.describe())
-
 # --- Grouped Summary ---
-st.write("### Group by Model_Used and calculate the mean of Conversion_Rate (%)")
-st.write(df.groupby("Model_Used").agg({
-    'gender': 'count', 'user_age': 'mean', 'occasion': 'count', 'user_cuisine': 'count',
-    'taste': 'count', 'Conversion_Rate (%)': 'mean', 'likes': 'count', 'rating': 'count',
-    'place': 'count', 'dietary_preferences': 'count', 'budget': 'count'
-}))
+if "Conversion_Rate (%)" in df.columns and "Model_Used" in df.columns:
+    st.write("### Group by Model_Used and calculate the mean of Conversion_Rate (%)")
+    st.write(df.groupby("Model_Used")['Conversion_Rate (%)'].mean())
 
-# --- Best Performing Model ---
-conversion_rate_summary = df.groupby("Model_Used")['Conversion_Rate (%)'].mean()
-max_conversion_model = conversion_rate_summary.idxmax()
-max_conversion_value = conversion_rate_summary.max()
-st.write(f"✅ The model with the highest Conversion Rate is **Model {max_conversion_model}**, with a Conversion Rate of **{max_conversion_value:.2f}%**")
+    conversion_rate_summary = df.groupby("Model_Used")['Conversion_Rate (%)'].mean()
+    max_model = conversion_rate_summary.idxmax()
+    max_val = conversion_rate_summary.max()
+    st.write(f"✅ Highest Conversion Rate: **Model {max_model}** at **{max_val:.2f}%**")
 
-# --- Train the model ---
-clf, accuracy, report = train_model(df)
+# --- Train Model ---
+clf, accuracy, report = train_model(df, features, target, categorical_features)
 
 # --- User Input Section ---
-st.header("🧑 ML Model Prediction for a New User")
+st.header("🧑 Predict for a New User")
 
 with st.form("user_form"):
-    user_cuisine = st.selectbox("Preferred Cuisine", df["user_cuisine"].unique())
-    taste = st.selectbox("Taste Preference", df["taste"].unique())
-    time_spent = st.slider("Time Spent (min)", 0, 120, 30)
-    occasion = st.selectbox("Occasion", df["occasion"].unique())
-    place = st.selectbox("Place", df["place"].unique())
-    dietary_preferences = st.selectbox("Preferred Diet", df["dietary_preferences"].unique())
-    budget = st.selectbox("Budget", df["budget"].unique())
+    user_input = {}
+    for feature in features:
+        if df[feature].dtype == 'object':
+            user_input[feature] = st.selectbox(f"{feature}", df[feature].unique())
+        elif np.issubdtype(df[feature].dtype, np.number):
+            min_val = int(df[feature].min())
+            max_val = int(df[feature].max())
+            user_input[feature] = st.slider(f"{feature}", min_val, max_val, int(df[feature].mean()))
+        else:
+            user_input[feature] = st.text_input(f"{feature}")
 
     submitted = st.form_submit_button("Predict Model")
 
 if submitted:
-    new_user = pd.DataFrame([{
-        "user_cuisine": user_cuisine,
-        "taste": taste,
-        "Time_Spent (min)": time_spent,
-        "occasion": occasion,
-        "place": place,
-        "dietary_preferences": dietary_preferences,
-        "budget": budget
-    }])
-
+    new_user = pd.DataFrame([user_input])
     prediction = clf.predict(new_user)[0]
-    st.success(f"✅ Recommended Model: **Model {prediction}**")
+    st.success(f"✅ Predicted {target}: **{prediction}**")
 
 # --- Feature Importance ---
 with st.expander("📊 Show Feature Importances"):
-    feature_names = clf.named_steps["preprocessor"].get_feature_names_out()
+    try:
+        feature_names = clf.named_steps["preprocessor"].get_feature_names_out()
+    except:
+        feature_names = clf.named_steps["preprocessor"].get_feature_names_out()
     importances = clf.named_steps["classifier"].feature_importances_
     sorted_idx = np.argsort(importances)[::-1]
 
@@ -152,23 +151,16 @@ with st.expander("📊 Show Feature Importances"):
 
 # --- Simulated Users ---
 st.header("🧪 Simulated Users")
+# Use only selected features
 simulated_users = pd.DataFrame([
-    {
-        "user_cuisine": "Mexican", "taste": "Spicy",
-        "Time_Spent (min)": 10, "occasion": "Party", "place": "Home",
-        "dietary_preferences": "None", "budget": "Low"
-    },
-    {
-        "user_cuisine": "Japanese", "taste": "Umami",
-        "Time_Spent (min)": 60, "occasion": "Date", "place": "Restaurant",
-        "dietary_preferences": "Vegetarian", "budget": "High"
-    }
+    {f: df[f].iloc[0] for f in features},
+    {f: df[f].iloc[1] for f in features}
 ])
 
 predicted_models = clf.predict(simulated_users)
-simulated_users["Recommended_Model"] = predicted_models
+simulated_users[f"Predicted_{target}"] = predicted_models
 st.dataframe(simulated_users)
 
-# --- Download results ---
+# --- Download ---
 csv = simulated_users.to_csv(index=False).encode('utf-8')
 st.download_button("📥 Download Simulated Results", csv, "simulated_predictions.csv", "text/csv")
