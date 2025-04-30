@@ -52,11 +52,14 @@ else:
 # --- Train Model ---
 @st.cache_resource
 def train_model(df):
-    features = [
+   """ features = [
         "Donations ($)", "Recommendation_Accuracy (%)", "Engagement_(min/session)", "user_age",
         "user_cuisine", "gender", "taste", "likes", "rating", "Time_Spent (min)",
         "Conversion_Rate (%)", "occasion", "place", "dietary_preferences", "budget"
-    ]
+    ] """
+    features = ["user_cuisine", "taste", "Time_Spent (min)",
+     "occasion", "place", "dietary_preferences", "budget"
+    ] 
     target = "Model_Used"
 
     X = df[features]
@@ -128,9 +131,9 @@ with st.form("user_form"):
 
 if submitted:
     new_user = pd.DataFrame([{
-        "Donations ($)": 20,
-        "Recommendation_Accuracy (%)": 80,
-        "Engagement_(min/session)": 15,
+        # "Donations ($)": 20,
+        # "Recommendation_Accuracy (%)": 80,
+        # "Engagement_(min/session)": 15,
         # "user_age": user_age,
         "user_cuisine": user_cuisine,
         # "gender": gender,
