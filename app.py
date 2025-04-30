@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -17,6 +16,7 @@ st.set_page_config(page_title="ML Classification Model Prediction", layout="cent
 st.title("ML Classification Model Prediction")          
 st.markdown("""
 Welcome to the **Recommendation Model Predictor**! This app helps predict the best recommendation model for users based on their preferences and behavior.
+
 ### Key Features:
 - **Interactive User Input**: Users can input personal details (e.g., age, cuisine preference, taste) to get a model recommendation.
 - **Data Upload**: Option to upload a custom dataset or use the default dataset.
@@ -25,31 +25,45 @@ Welcome to the **Recommendation Model Predictor**! This app helps predict the be
 - **Simulated User Predictions**: Predictions for sample users are displayed to demonstrate the model's functionality.
 - **Download Results**: Users can download simulated predictions in CSV format for further analysis.
 """)
-#st.markdown("Upload your dataset or use the default. Enter user info below to predict the best recommendation model.")
-# Upload dataset
-#uploaded_file = st.file_uploader("📥 Upload your CSV file", type=["csv"])
-#if uploaded_file:
-   # df = pd.read_csv(uploaded_file)
+
+# Clear cache
 if st.button("Clear Cache"):
     st.cache_data.clear()
-    
-# --- Load or train model ---
-@st.cache_data
-def load_data():
-    return pd.read_csv("recommendation_model_updated_v5.csv")          
-    
 
+# --- File Upload Section ---
+st.subheader("📂 Upload Your Dataset")
+uploaded_file = st.file_uploader("Upload a CSV file with user data", type=["csv"])
+
+@st.cache_data
+def load_default_data():
+    return pd.read_csv("recommendation_model_updated_v5.csv")
+
+# Load data
+if uploaded_file is not None:
+    try:
+        df = pd.read_csv(uploaded_file)
+        st.success("✅ File uploaded successfully!")
+    except Exception as e:
+        st.error(f"❌ Error reading the file: {e}")
+        st.stop()
+else:
+    st.info("ℹ️ Using default dataset (recommendation_model_updated_v5.csv)")
+    df = load_default_data()
+
+# --- Train Model ---
 @st.cache_resource
 def train_model(df):
     features = [
-        "Donations ($)","Recommendation_Accuracy (%)","Engagement_(min/session)","user_age", "user_cuisine", "gender", "taste", "likes","rating",  "Time_Spent (min)", "Conversion_Rate (%)", "occasion", "place", "dietary_preferences", "budget"
+        "Donations ($)", "Recommendation_Accuracy (%)", "Engagement_(min/session)", "user_age",
+        "user_cuisine", "gender", "taste", "likes", "rating", "Time_Spent (min)",
+        "Conversion_Rate (%)", "occasion", "place", "dietary_preferences", "budget"
     ]
     target = "Model_Used"
 
     X = df[features]
     y = df[target]
 
-    categorical_features = ["user_cuisine", "gender", "taste", "occasion", "place","dietary_preferences", "budget"]
+    categorical_features = ["user_cuisine", "gender", "taste", "occasion", "place", "dietary_preferences", "budget"]
 
     preprocessor = ColumnTransformer(transformers=[
         ("cat", OneHotEncoder(handle_unknown="ignore"), categorical_features),
@@ -69,29 +83,31 @@ def train_model(df):
     y_pred = clf.predict(X_test)
     acc = accuracy_score(y_test, y_pred)
     report = classification_report(y_test, y_pred, output_dict=True)
-    
+
     return clf, acc, report
 
-# Load and train
-df = load_data()
+# Show dataset
 st.write("### Preview of Data:")
 st.write(df.head())
 st.write("### Summary Statistics:")
 st.write(df.describe())
-st.write("### Group by Model_Used and calculate the mean of Conversion_Rate(%)")
-st.write(df.groupby("Model_Used").agg({'gender': 'count',  'user_age': 'mean', 'occasion': 'count', 'user_cuisine':'count', 'taste': 'count', 'Conversion_Rate (%)': 'mean', 'likes': 'count', 'rating': 'count', 'place': 'count', 'dietary_preferences':'count', 
-                                       'budget': 'count' }))
-conversion_rate_summary = df.groupby("Model_Used")['Conversion_Rate (%)'].mean()
 
-# Find the model with the maximum conversion rate
+# Grouped summary
+st.write("### Group by Model_Used and calculate the mean of Conversion_Rate (%)")
+st.write(df.groupby("Model_Used").agg({
+    'gender': 'count', 'user_age': 'mean', 'occasion': 'count', 'user_cuisine': 'count',
+    'taste': 'count', 'Conversion_Rate (%)': 'mean', 'likes': 'count', 'rating': 'count',
+    'place': 'count', 'dietary_preferences': 'count', 'budget': 'count'
+}))
+
+# Conversion rate summary
+conversion_rate_summary = df.groupby("Model_Used")['Conversion_Rate (%)'].mean()
 max_conversion_model = conversion_rate_summary.idxmax()
 max_conversion_value = conversion_rate_summary.max()
+st.write(f"✅ The model with the highest Conversion Rate is **Model {max_conversion_model}**, with a Conversion Rate of **{max_conversion_value:.2f}%**")
 
-# Output the result using Streamlit's st.write
-st.write(f"The model with the highest Conversion Rate is Model: {max_conversion_model}, with a Conversion Rate of: {max_conversion_value:.2f}%")
-
+# Train model
 clf, accuracy, report = train_model(df)
-#st.markdown(f"### 🎯 Model Accuracy: `{accuracy:.2f}` on test set")
 
 # --- User Input Section ---
 st.header("🧑 ML Model Prediction for a New User")
@@ -99,22 +115,21 @@ st.header("🧑 ML Model Prediction for a New User")
 with st.form("user_form"):
     user_age = st.slider("User Age", 1, 100, 25)
     user_cuisine = st.selectbox("Preferred Cuisine", df["user_cuisine"].unique())
-    gender = st.radio("gender", df["gender"].unique())
+    gender = st.radio("Gender", df["gender"].unique())
     taste = st.selectbox("Taste Preference", df["taste"].unique())
-    likes = st.number_input("likes", min_value=0, value=5)
-    rating = st.number_input("rating", min_value=1, value=5)
+    likes = st.number_input("Likes", min_value=0, value=5)
+    rating = st.number_input("Rating", min_value=1, value=5)
     time_spent = st.slider("Time Spent (min)", 0, 120, 30)
     occasion = st.selectbox("Occasion", df["occasion"].unique())
     place = st.selectbox("Place", df["place"].unique())
-    dietary_preferences= st.selectbox("Preferred diet", df["dietary_preferences"].unique())
+    dietary_preferences = st.selectbox("Preferred Diet", df["dietary_preferences"].unique())
     budget = st.selectbox("Budget", df["budget"].unique())
-    #conversion_rate = st.slider("Conversion Rate (%)", 0, 100, 5)
-   
 
     submitted = st.form_submit_button("Predict Model")
+
 if submitted:
     new_user = pd.DataFrame([{
-        "Donations ($)": 20,  # Or get from user
+        "Donations ($)": 20,
         "Recommendation_Accuracy (%)": 80,
         "Engagement_(min/session)": 15,
         "user_age": user_age,
@@ -124,7 +139,7 @@ if submitted:
         "likes": likes,
         "rating": rating,
         "Time_Spent (min)": time_spent,
-        "Conversion_Rate (%)": 5,  # Or get from user
+        "Conversion_Rate (%)": 5,
         "occasion": occasion,
         "place": place,
         "dietary_preferences": dietary_preferences,
@@ -133,7 +148,6 @@ if submitted:
 
     prediction = clf.predict(new_user)[0]
     st.success(f"✅ Recommended Model: **Model {prediction}**")
-
 
 # --- Feature Importance ---
 with st.expander("📊 Show Feature Importances"):
@@ -162,12 +176,10 @@ simulated_users = pd.DataFrame([
      "occasion": "Date", "place": "Restaurant", "dietary_preferences": "Vegetarian", "budget": "High"}
 ])
 
-
 predicted_models = clf.predict(simulated_users)
 simulated_users["Recommended_Model"] = predicted_models
-
 st.dataframe(simulated_users)
 
-# Optional: Download predictions
+# Download results
 csv = simulated_users.to_csv(index=False).encode('utf-8')
 st.download_button("📥 Download Simulated Results", csv, "simulated_predictions.csv", "text/csv")
