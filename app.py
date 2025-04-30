@@ -115,10 +115,9 @@ with st.form("user_form"):
         new_user = pd.DataFrame([{
             "user_age": user_age,
             "user_cuisine": user_cuisine,
-            "sex": sex,
+            "gender": gender,
             "taste": taste,
-            "Likes": likes,
-            "Dislikes": dislikes,
+            "likes": likes,
             "Time_Spent (min)": time_spent,
             "Conversion_Rate (%)": conversion_rate
         }])
