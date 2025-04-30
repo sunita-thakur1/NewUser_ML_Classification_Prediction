@@ -112,18 +112,27 @@ with st.form("user_form"):
     submitted = st.form_submit_button("Predict Model")
 
     if submitted:
-        new_user = pd.DataFrame([{
-            "user_age": user_age,
-            "user_cuisine": user_cuisine,
-            "gender": gender,
-            "taste": taste,
-            "likes": likes,
-            "Time_Spent (min)": time_spent,
-            "Conversion_Rate (%)": conversion_rate
-        }])
+    new_user = pd.DataFrame([{
+        "Donations ($)": 20,  # Or get from user
+        "Recommendation_Accuracy (%)": 80,
+        "Engagement_(min/session)": 15,
+        "user_age": user_age,
+        "user_cuisine": user_cuisine,
+        "gender": gender,
+        "taste": taste,
+        "likes": likes,
+        "rating": rating,
+        "Time_Spent (min)": time_spent,
+        "Conversion_Rate (%)": 5,  # Or get from user
+        "occasion": occasion,
+        "place": place,
+        "dietary_preferences": dietary_preferences,
+        "budget": budget
+    }])
 
-        prediction = clf.predict(new_user)[0]
-        st.success(f"✅ Recommended Model: **Model {prediction}**")
+    prediction = clf.predict(new_user)[0]
+    st.success(f"✅ Recommended Model: **Model {prediction}**")
+
 
 # --- Feature Importance ---
 with st.expander("📊 Show Feature Importances"):
@@ -141,12 +150,17 @@ with st.expander("📊 Show Feature Importances"):
 # --- Simulated Users ---
 st.header("🧪 Simulated Users")
 simulated_users = pd.DataFrame([
-    {"user_age": 5, "user_cuisine": "Mexican", "sex": "Male", "taste": "Spicy",
-     "Likes": 15, "Dislikes": 3, "Time_Spent (min)": 10, "Conversion_Rate (%)": 2},
+    {"Donations ($)": 10, "Recommendation_Accuracy (%)": 70, "Engagement_(min/session)": 10,
+     "user_age": 5, "user_cuisine": "Mexican", "gender": "Male", "taste": "Spicy",
+     "likes": 15, "rating": 3, "Time_Spent (min)": 10, "Conversion_Rate (%)": 2,
+     "occasion": "Party", "place": "Home", "dietary_preferences": "None", "budget": "Low"},
 
-    {"user_age": 95, "user_cuisine": "Japanese", "sex": "Female", "taste": "Umami",
-     "Likes": 8, "Dislikes": 2, "Time_Spent (min)": 60, "Conversion_Rate (%)": 7}
+    {"Donations ($)": 25, "Recommendation_Accuracy (%)": 90, "Engagement_(min/session)": 25,
+     "user_age": 95, "user_cuisine": "Japanese", "gender": "Female", "taste": "Umami",
+     "likes": 8, "rating": 4, "Time_Spent (min)": 60, "Conversion_Rate (%)": 7,
+     "occasion": "Date", "place": "Restaurant", "dietary_preferences": "Vegetarian", "budget": "High"}
 ])
+
 
 predicted_models = clf.predict(simulated_users)
 simulated_users["Recommended_Model"] = predicted_models
