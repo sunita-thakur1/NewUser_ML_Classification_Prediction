@@ -40,8 +40,7 @@ def load_data():
 @st.cache_resource
 def train_model(df):
     features = [
-        "user_age", "user_cuisine", "gender", "taste",
-        "likes","rating",  "Time_Spent (min)", "Conversion_Rate (%)", "occasion", "place", "dietary_preferences", "budget"
+        "Donations ($)","Recommendation_Accuracy (%)","Engagement_(min/session)","user_age", "user_cuisine", "gender", "taste", "likes","rating",  "Time_Spent (min)", "Conversion_Rate (%)", "occasion", "place", "dietary_preferences", "budget"
     ]
     target = "Model_Used"
 
