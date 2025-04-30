@@ -112,7 +112,7 @@ if "Conversion_Rate (%)" in df.columns and "Model_Used" in df.columns:
 clf, accuracy, report = train_model(df, features, target, categorical_features)
 
 # --- User Input Section ---
-st.header("🧑 Predict for a New User")
+st.header("🧑 Prediction for a New User")
 
 with st.form("user_form"):
     user_input = {}
