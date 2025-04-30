@@ -112,8 +112,7 @@ with st.form("user_form"):
    
 
     submitted = st.form_submit_button("Predict Model")
-
-    if submitted:
+if submitted:
     new_user = pd.DataFrame([{
         "Donations ($)": 20,  # Or get from user
         "Recommendation_Accuracy (%)": 80,
