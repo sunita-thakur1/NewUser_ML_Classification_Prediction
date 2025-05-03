@@ -61,7 +61,7 @@ st.subheader("🔧 Select Model Configuration")
 columns = df.columns.tolist()
 
 features = st.multiselect("Select Feature Columns", options=columns, default=[
-    "user_cuisine", "taste", "Time_Spent (min)", "occasion", "place", "dietary_preferences", "budget"
+    "user_cuisine", "taste", "sales($)", "occasion", "place", "dietary_preferences", "budget", "disliked_flavour"
 ])
 
 target = st.selectbox("Select Target Column", options=columns, index=columns.index("Model_Used") if "Model_Used" in columns else 0)
@@ -99,14 +99,14 @@ def train_model(df, features, target, categorical_features):
     return clf, acc, report
 
 # --- Grouped Summary ---
-if "Conversion_Rate (%)" in df.columns and "Model_Used" in df.columns:
-    st.write("### Group by Model_Used and calculate the mean of Conversion_Rate (%)")
-    st.write(df.groupby("Model_Used")['Conversion_Rate (%)'].mean())
+if "sales($)" in df.columns and "Model_Used" in df.columns:
+    st.write("### Group by Model_Used and calculate the mean of sales($)")
+    st.write(df.groupby("Model_Used")['sales($)'].mean())
 
-    conversion_rate_summary = df.groupby("Model_Used")['Conversion_Rate (%)'].mean()
-    max_model = conversion_rate_summary.idxmax()
-    max_val = conversion_rate_summary.max()
-    st.write(f"✅ Highest Conversion Rate: **Model {max_model}** at **{max_val:.2f}%**")
+    sales_summary = df.groupby("Model_Used")['sales($)'].mean()
+    max_model = sales_summary.idxmax()
+    max_val = sales_summary.max()
+    st.write(f"✅ Highest Conversion Rate: **Model {max_model}** at **{max_val:.2f}**")
 
 # --- Train Model ---
 clf, accuracy, report = train_model(df, features, target, categorical_features)
