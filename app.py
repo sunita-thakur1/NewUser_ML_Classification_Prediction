@@ -106,7 +106,7 @@ if "sales($)" in df.columns and "Model_Used" in df.columns:
     sales_summary = df.groupby("Model_Used")['sales($)'].mean()
     max_model = sales_summary.idxmax()
     max_val = sales_summary.max()
-    st.write(f"✅ Highest Sales: **Model {max_model}** at **{max_val:.2f}**")
+    st.write(f"✅ Highest Sales: **Model {max_model}** with mean sales **{max_val:.2f}**")
 
 # --- Train Model ---
 clf, accuracy, report = train_model(df, features, target, categorical_features)
