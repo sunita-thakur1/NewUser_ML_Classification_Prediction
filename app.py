@@ -99,7 +99,7 @@ def train_model(df, features, target, categorical_features):
     return clf, acc, report
 
 # --- Grouped Summary ---
-if "sales($)" in df.columns and "Model_Used" in df.columns:
+if "sales($)" in df.columns and "Model_Used" in df.columns:    
     st.write("### Mean Sales($) when grouped by Model_Used")
     st.write(df.groupby("Model_Used")['sales($)'].mean())
 
