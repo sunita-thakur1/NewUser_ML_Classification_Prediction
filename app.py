@@ -99,14 +99,25 @@ def train_model(df, features, target, categorical_features):
     return clf, acc, report
 
 # --- Grouped Summary ---
-if "sales($)" in df.columns and "Model_Used" in df.columns:    
-    st.write("### Mean Sales($) when grouped by Model_Used")
-    st.write(df.groupby("Model_Used")['sales($)'].mean())
+st.subheader("📊 Grouped Summary")
 
-    sales_summary = df.groupby("Model_Used")['sales($)'].mean()
-    max_model = sales_summary.idxmax()
-    max_val = sales_summary.max()
-    st.write(f"✅ Highest Sales: **Model {max_model}** with mean sales: **{max_val:.2f}**")
+# Identify numeric and categorical columns
+numeric_cols = df.select_dtypes(include=np.number).columns.tolist()
+groupable_cols = [col for col in df.columns if df[col].dtype == 'object']
+
+if numeric_cols and groupable_cols:
+    selected_group_col = st.selectbox("Select a column to group by:", groupable_cols)
+    selected_value_col = st.selectbox("Select a numeric column to aggregate:", numeric_cols)
+
+    group_summary = df.groupby(selected_group_col)[selected_value_col].mean().sort_values(ascending=False)
+    st.write(f"### Mean of `{selected_value_col}` grouped by `{selected_group_col}`")
+    st.dataframe(group_summary)
+
+    max_group = group_summary.idxmax()
+    max_value = group_summary.max()
+    st.success(f"✅ Highest mean`{selected_value_col}`: **{max_value:.2f}** from **{selected_group_col} = {max_group}**")
+else:
+    st.warning("Not enough numeric or categorical columns to perform grouping.")
 
 # --- Train Model ---
 clf, accuracy, report = train_model(df, features, target, categorical_features)
