@@ -101,9 +101,9 @@ def train_model(df, features, target, categorical_features):
 # --- Grouped Summary ---
 st.subheader("📊 Grouped Summary")
 
-# Identify numeric and categorical columns
+# Get all columns for grouping and only numeric columns for aggregation
+groupable_cols = df.columns.tolist()
 numeric_cols = df.select_dtypes(include=np.number).columns.tolist()
-groupable_cols = [col for col in df.columns if df[col].dtype == 'object']
 
 if numeric_cols and groupable_cols:
     selected_group_col = st.selectbox("Select a column to group by:", groupable_cols)
@@ -115,9 +115,10 @@ if numeric_cols and groupable_cols:
 
     max_group = group_summary.idxmax()
     max_value = group_summary.max()
-    st.success(f"✅ Highest mean`{selected_value_col}`: **{max_value:.2f}** from **{selected_group_col} = {max_group}**")
+    st.success(f"✅ Highest mean `{selected_value_col}`: **{max_value:.2f}** from **{selected_group_col} = {max_group}**")
 else:
-    st.warning("Not enough numeric or categorical columns to perform grouping.")
+    st.warning("Not enough numeric or groupable columns to perform this operation.")
+
 
 # --- Train Model ---
 clf, accuracy, report = train_model(df, features, target, categorical_features)
